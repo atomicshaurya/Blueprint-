@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shaurya — Master Life Plan 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--k:#080808;--w:#f0ede6;--r:#e8321a;--g:#22c55e;--m:#555;--b:#1a1a1a;--d:#0d0d0d}
+html{scroll-behavior:smooth}
+body{background:var(--k);color:var(--w);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+nav{position:sticky;top:0;z-index:100;background:rgba(8,8,8,.97);backdrop-filter:blur(14px);border-bottom:1px solid var(--b);overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+.ni{display:flex;max-width:980px;margin:0 auto;padding:0 14px;white-space:nowrap}
+nav a{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.12em;color:var(--m);text-decoration:none;padding:13px 10px;text-transform:uppercase;transition:color .2s}
+nav a:hover{color:var(--w)}
+.W{max-width:980px;margin:0 auto;padding:0 20px}
+section,.hero,.closing{padding:58px 0;border-bottom:1px solid var(--b)}
+.closing{border-bottom:none}
+.sl{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.25em;color:var(--m);text-transform:uppercase;margin-bottom:24px;display:flex;align-items:center;gap:12px}
+.sl::after{content:'';flex:1;height:1px;background:var(--b)}
+.st{font-family:'Bebas Neue',sans-serif;font-size:clamp(26px,6vw,46px);letter-spacing:.04em;margin-bottom:20px;line-height:1}
+.st em,.big em{color:var(--r);font-style:normal}
+.sub{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--m);text-transform:uppercase;margin:22px 0 11px;padding-bottom:7px;border-bottom:1px solid var(--b)}
+.cx{border-left:3px solid var(--r);padding:14px 18px;background:var(--d);margin-bottom:14px}
+.cx p{font-size:13px;line-height:1.85;color:#aaa;font-weight:300}
+.cx p strong{color:var(--w);font-weight:500}
+.ib{border:1px solid var(--b);padding:16px;background:var(--d);margin-bottom:4px}
+.ib p{font-size:13px;color:#aaa;line-height:1.85;font-weight:300}
+.ib p strong{color:var(--w);font-weight:500}
+/* HERO */
+.hero{padding:72px 0 62px}
+.hm{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.2em;color:var(--r);text-transform:uppercase;margin-bottom:20px}
+h1.big{font-family:'Bebas Neue',sans-serif;font-size:clamp(64px,14vw,120px);line-height:.88;margin-bottom:28px}
+/* GRIDS */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
+/* EXPAND */
+.eb{border:1px solid var(--b);margin-bottom:3px;overflow:hidden}
+.eh{display:flex;align-items:center;cursor:pointer;transition:background .2s;user-select:none}
+.eh:hover{background:var(--d)}
+.eh.hot{border-left:3px solid var(--r)}
+.et{font-family:'DM Mono',monospace;font-size:10px;padding:12px 12px;color:var(--m);background:var(--d);border-right:1px solid var(--b);min-width:105px;letter-spacing:.04em;display:flex;align-items:center;flex-shrink:0}
+.eh.hot .et{color:var(--r)}
+.en{font-size:13px;font-weight:500;padding:12px 14px;flex:1}
+.ea{font-family:'DM Mono',monospace;font-size:11px;color:var(--m);padding:12px 13px;transition:transform .25s}
+.ed{display:none;padding:15px 16px;border-top:1px solid var(--b);background:#090909}
+.ed.open{display:block}
+.er{display:flex;gap:10px;margin-bottom:8px;align-items:flex-start}
+.er:last-child{margin-bottom:0}
+.ed1{width:5px;height:5px;border-radius:50%;background:var(--r);flex-shrink:0;margin-top:7px}
+.er p{font-size:13px;color:#aaa;line-height:1.68;font-weight:300}
+.er p strong{color:var(--w);font-weight:500}
+/* TABS */
+.tbar{display:flex;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--b);margin-bottom:20px}
+.tbar::-webkit-scrollbar{display:none}
+.tbtn{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--m);padding:11px 14px;cursor:pointer;border:none;border-bottom:2px solid transparent;background:none;white-space:nowrap;transition:all .2s}
+.tbtn:hover{color:var(--w)}
+.tbtn.on{color:var(--r);border-bottom-color:var(--r)}
+.tc{display:none}
+.tc.on{display:block}
+/* CONTRACT */
+.ctb{border:1px solid var(--b);padding:26px;background:var(--d)}
+.cc{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid #111}
+.cc:last-of-type{border-bottom:none}
+.ccn{font-family:'DM Mono',monospace;font-size:10px;color:var(--r);min-width:24px;letter-spacing:.1em;margin-top:3px}
+.cct{font-size:13px;color:#aaa;line-height:1.75;font-weight:300}
+.cct strong{color:var(--w);font-weight:500}
+.forfeit-area{margin-top:18px;padding-top:18px;border-top:1px solid var(--b)}
+.forfeit-area label{font-family:'DM Mono',monospace;font-size:10px;color:var(--m);text-transform:uppercase;letter-spacing:.15em;display:block;margin-bottom:8px}
+.fi{width:100%;background:var(--k);border:1px solid var(--b);color:var(--w);padding:11px 13px;font-family:'DM Sans',sans-serif;font-size:13px;outline:none;resize:none;min-height:62px}
+.fi:focus{border-color:var(--r)}
+.fi::placeholder{color:var(--m)}
+.sarea{margin-top:18px;padding-top:18px;border-top:1px solid var(--b);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.sname{font-family:'Bebas Neue',sans-serif;font-size:24px;color:var(--w);letter-spacing:.04em}
+.sdate{font-family:'DM Mono',monospace;font-size:11px;color:var(--m);margin-top:2px}
+.sbtn{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;padding:11px 20px;border:1px solid var(--r);color:var(--r);background:none;cursor:pointer;transition:all .2s}
+.sbtn:hover{background:var(--r);color:var(--w)}
+.sbtn.signed{background:rgba(34,197,94,.1);border-color:var(--g);color:var(--g);cursor:default}
+/* MIRROR */
+.mq{border:1px solid var(--b);padding:18px;margin-bottom:4px;background:var(--d)}
+.mq h3{font-size:14px;font-weight:500;margin-bottom:13px;color:#aaa}
+.mbtns{display:flex;gap:4px}
+.mbtn{flex:1;padding:13px 10px;border:1px solid var(--b);background:none;color:var(--m);font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:all .2s;line-height:1.6;text-align:center}
+.mbtn:hover{border-color:var(--w);color:var(--w)}
+.mbtn.ex.sel{border-color:var(--g);color:var(--g);background:rgba(34,197,94,.07)}
+.mbtn.av.sel{border-color:var(--r);color:var(--r);background:rgba(232,50,26,.07)}
+.mbtn.pr.sel{border-color:var(--g);color:var(--g);background:rgba(34,197,94,.07)}
+.mbtn.di.sel{border-color:var(--r);color:var(--r);background:rgba(232,50,26,.07)}
+.mirror-resp{margin-top:12px;font-size:13px;line-height:1.75;color:#aaa;font-weight:300;min-height:20px;transition:opacity .3s}
+.mirror-resp strong{font-weight:500}
+/* TRACKER */
+.hgrid{display:grid;grid-template-columns:1fr 1fr;gap:3px;margin-bottom:13px}
+.hb{border:1px solid var(--b);padding:14px 12px;cursor:pointer;transition:all .2s;user-select:none}
+.hb:hover{background:var(--d)}
+.hb.done{border-color:var(--g);background:rgba(34,197,94,.07)}
+.hb.miss{border-color:var(--r);background:rgba(232,50,26,.05)}
+.hn{font-size:13px;font-weight:500;margin-bottom:2px}
+.hb.done .hn{color:var(--g)}
+.hb.miss .hn{color:var(--r)}
+.hs{font-family:'DM Mono',monospace;font-size:10px;color:var(--m)}
+.hb.done .hs,.hb.miss .hs{color:inherit;opacity:.7}
+.score-big{font-family:'Bebas Neue',sans-serif;font-size:72px;color:var(--r);line-height:1;letter-spacing:.02em}
+.score-of{font-family:'DM Mono',monospace;font-size:11px;color:var(--m);margin-bottom:16px}
+.savebtn{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;padding:13px;background:var(--r);color:var(--w);border:none;cursor:pointer;width:100%;transition:background .2s;margin-top:4px}
+.savebtn:hover{background:#c42a15}
+.srow{display:flex;gap:4px;margin-top:13px}
+.sc{flex:1;border:1px solid var(--b);padding:13px;text-align:center}
+.sv{font-family:'Bebas Neue',sans-serif;font-size:32px;color:var(--w);line-height:1}
+.sl2{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.15em;color:var(--m);text-transform:uppercase;margin-top:3px}
+/* 30-DAY CAL */
+.cal-grid{display:grid;grid-template-columns:repeat(10,1fr);gap:3px;margin-top:13px}
+.cal-day{aspect-ratio:1;border:1px solid var(--b);display:flex;align-items:center;justify-content:center;font-family:'DM Mono',monospace;font-size:9px;color:var(--m);cursor:default}
+.cal-day.done{background:rgba(34,197,94,.15);border-color:var(--g);color:var(--g)}
+.cal-day.miss{background:rgba(232,50,26,.1);border-color:var(--r);color:var(--r)}
+.cal-day.today{border-color:var(--w);color:var(--w)}
+/* INCOME */
+.inc-big{font-family:'Bebas Neue',sans-serif;font-size:54px;color:var(--w);line-height:1;margin-bottom:3px}
+.inc-goal{font-family:'DM Mono',monospace;font-size:11px;color:var(--m);margin-bottom:13px}
+.ibar{height:4px;background:#1e1e1e;margin-bottom:6px}
+.ibarf{height:4px;background:var(--r);transition:width .6s}
+.ipct{font-family:'DM Mono',monospace;font-size:10px;color:var(--r);margin-bottom:18px}
+.inc-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-bottom:18px}
+.inc-stat{border:1px solid var(--b);padding:14px 12px}
+.inc-stat.red{border-color:var(--r);background:#0f0a09}
+.isl{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.15em;color:var(--m);text-transform:uppercase;margin-bottom:5px}
+.isv{font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--w);line-height:1}
+.inc-stat.red .isv{color:var(--r)}
+.iss{font-size:11px;color:var(--m);font-weight:300}
+.iarow{display:flex;gap:4px;margin-bottom:4px}
+.ii{flex:1;background:var(--k);border:1px solid var(--b);color:var(--w);padding:9px 11px;font-family:'DM Sans',sans-serif;font-size:13px;outline:none}
+.ii:focus{border-color:var(--r)}
+.ii::placeholder{color:var(--m)}
+.iadd{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.13em;padding:9px 14px;background:var(--r);color:var(--w);border:none;cursor:pointer;text-transform:uppercase;white-space:nowrap}
+.irow{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #111}
+.irow:last-child{border-bottom:none}
+.idate{font-family:'DM Mono',monospace;font-size:10px;color:var(--m)}
+.inote{font-size:12px;color:#aaa;flex:1;margin:0 9px}
+.iamt{font-family:'DM Mono',monospace;font-size:12px;color:var(--g)}
+.idel{background:none;border:none;color:var(--m);cursor:pointer;font-size:12px;padding:2px 5px}
+.idel:hover{color:var(--r)}
+.no-inc{font-size:12px;color:var(--m);text-align:center;padding:16px;font-weight:300;font-style:italic}
+/* PATTERNS */
+.pw{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-bottom:18px}
+.pc{border:1px solid var(--b);padding:16px}
+.ppt{font-family:'Bebas Neue',sans-serif;font-size:17px;letter-spacing:.04em;color:var(--r);margin-bottom:3px}
+.ppl{font-size:11px;color:var(--m);margin-bottom:7px;font-style:italic;font-weight:300}
+.ppt2{font-size:13px;color:var(--w);line-height:1.65;font-weight:400;margin-bottom:7px}
+.ppa{font-size:12px;color:var(--m);font-weight:300;line-height:1.6}
+.ppa strong{color:var(--r);font-weight:500}
+/* EXCUSE ENGINE */
+.exc-box{border:1px solid var(--b);padding:22px;background:var(--d)}
+.exc-tags{display:flex;flex-wrap:wrap;gap:3px;margin-bottom:14px}
+.exc-tag{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.1em;padding:6px 10px;border:1px solid var(--b);color:var(--m);background:none;cursor:pointer;text-transform:uppercase;transition:all .2s}
+.exc-tag:hover{border-color:var(--r);color:var(--r)}
+.exc-ta{width:100%;background:var(--k);border:1px solid var(--b);color:var(--w);padding:12px 13px;font-family:'DM Sans',sans-serif;font-size:13px;outline:none;resize:none;min-height:72px;margin-bottom:4px}
+.exc-ta:focus{border-color:var(--r)}
+.exc-ta::placeholder{color:var(--m)}
+.exc-btn{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;padding:13px;background:var(--r);color:var(--w);border:none;cursor:pointer;width:100%;transition:background .2s;margin-bottom:14px}
+.exc-btn:hover{background:#c42a15}
+.exc-btn:disabled{opacity:.5;cursor:not-allowed}
+.exc-out{font-size:14px;line-height:1.78;color:var(--w);font-weight:400;min-height:20px;border-left:3px solid var(--r);padding-left:14px;display:none}
+/* IDENTITY */
+.idc{background:var(--d);padding:18px 16px;border:1px solid var(--b)}
+.idw{font-family:'Bebas Neue',sans-serif;font-size:20px;color:var(--w);margin-bottom:6px;letter-spacing:.05em}
+.idd{font-size:12px;color:var(--m);line-height:1.75;font-weight:300}
+.idd strong{color:#888;font-weight:400}
+/* GYM */
+.dg{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-bottom:16px}
+.dc{border:1px solid var(--b);overflow:hidden}
+.dc.rest{opacity:.4;border-style:dashed}
+.dh{padding:11px 12px;cursor:pointer;transition:background .2s;display:flex;justify-content:space-between;align-items:center}
+.dh:hover{background:var(--d)}
+.dtag{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.13em;color:var(--r);text-transform:uppercase;margin-bottom:2px}
+.dtitle{font-size:12px;font-weight:500}
+.db{display:none;padding:11px 12px;border-top:1px solid var(--b);background:#090909}
+.db.open{display:block}
+.dgrp{margin-bottom:9px}
+.dgrp:last-child{margin-bottom:0}
+.dgt{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.13em;color:var(--m);text-transform:uppercase;margin-bottom:4px}
+.dex{font-size:12px;color:#aaa;padding:3px 0;border-bottom:1px solid #111;font-weight:300}
+.dex:last-child{border-bottom:none}
+/* POSTURE */
+.pr{display:grid;grid-template-columns:22px 1fr auto;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--b)}
+.pr:last-child{border-bottom:none}
+.pn{font-family:'Bebas Neue',sans-serif;font-size:18px;color:var(--r);opacity:.55;line-height:1}
+.pname{font-size:13px;font-weight:500}
+.pnote{font-size:11px;color:var(--m);font-weight:300;margin-top:1px}
+.preps{font-family:'DM Mono',monospace;font-size:10px;color:var(--m);white-space:nowrap}
+/* SKINCARE */
+.rtg{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-bottom:12px}
+.rtb{border:1px solid var(--b);padding:15px}
+.rtl{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--r);text-transform:uppercase;margin-bottom:12px}
+.stp{display:flex;gap:9px;margin-bottom:9px;align-items:flex-start}
+.stp:last-child{margin-bottom:0}
+.stn{font-family:'Bebas Neue',sans-serif;font-size:17px;color:#222;line-height:1;min-width:13px}
+.stp1{font-size:13px;font-weight:500;margin-bottom:2px}
+.stp2{font-size:11px;color:var(--m);font-weight:300;line-height:1.6}
+/* INGREDIENTS */
+.ingc{border:1px solid var(--b);padding:13px}
+.ingn{font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:.04em;margin-bottom:5px}
+.ingb{font-size:12px;color:var(--m);line-height:1.72;font-weight:300}
+.ingb strong{color:#888;font-weight:400}
+/* LM */
+.lmt{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.18em;color:var(--r);text-transform:uppercase;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid var(--b)}
+.lmi{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid #111}
+.lmi:last-child{border-bottom:none}
+.lmin{font-size:12px;color:var(--w)}
+.lmid{font-family:'DM Mono',monospace;font-size:10px;color:var(--m)}
+/* HAIR */
+.hc{border:1px solid var(--b);padding:14px}
+.hl{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.13em;color:var(--m);text-transform:uppercase;margin-bottom:6px}
+.ht2{font-size:13px;font-weight:500;margin-bottom:5px}
+.hb2{font-size:12px;color:var(--m);line-height:1.72;font-weight:300}
+.hb2 strong{color:#888;font-weight:400}
+/* DIET */
+.mr{display:grid;grid-template-columns:85px 1fr 46px;border:1px solid var(--b);margin-bottom:3px;overflow:hidden}
+.mt{font-family:'DM Mono',monospace;font-size:10px;padding:11px 11px;background:var(--d);color:var(--m);border-right:1px solid var(--b);display:flex;align-items:center;letter-spacing:.04em}
+.mb{padding:11px 13px}
+.mn{font-size:13px;font-weight:500;margin-bottom:2px}
+.md{font-size:11px;color:var(--m);font-weight:300}
+.mp{font-family:'DM Mono',monospace;font-size:11px;color:var(--r);display:flex;align-items:center;justify-content:flex-end;padding:11px 11px;border-left:1px solid var(--b);font-weight:500}
+.mac{margin-bottom:11px}
+.mact{display:flex;justify-content:space-between;margin-bottom:4px}
+.mact span{font-family:'DM Mono',monospace;font-size:10px;color:var(--m);text-transform:uppercase;letter-spacing:.1em}
+.mact strong{font-family:'DM Mono',monospace;font-size:10px;color:var(--w)}
+.macb{height:2px;background:#1e1e1e}
+.macf{height:2px;background:var(--r)}
+/* SKILLS */
+.skc{border:1px solid var(--b);overflow:hidden;margin-bottom:2px}
+.skch{display:flex;justify-content:space-between;align-items:center;padding:11px 14px;cursor:pointer;background:var(--d);transition:background .2s}
+.skch:hover{background:#111}
+.skcn{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--w)}
+.skcb{display:none;padding:11px 14px;border-top:1px solid var(--b)}
+.skcb.open{display:block}
+.stag{display:inline-block;font-size:11px;color:var(--m);padding:3px 7px;border:1px solid var(--b);margin:2px;font-weight:300}
+.stag.d{border-color:var(--r);color:var(--w)}
+.ds{border:1px solid var(--b);margin-bottom:3px;overflow:hidden}
+.dsh{display:flex;justify-content:space-between;align-items:center;padding:13px 15px;cursor:pointer;transition:background .2s}
+.dsh:hover{background:var(--d)}
+.dsl{display:flex;align-items:center;gap:11px}
+.dsnum{font-family:'Bebas Neue',sans-serif;font-size:24px;color:var(--r);opacity:.4;line-height:1}
+.dsname{font-size:13px;font-weight:500}
+.dsbadge{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.1em;color:var(--r);border:1px solid var(--r);padding:3px 6px;text-transform:uppercase;white-space:nowrap}
+.dsb{display:none;padding:15px;border-top:1px solid var(--b);background:#090909}
+.dsb.open{display:block}
+.ph{font-size:12px;color:#222;font-style:italic;text-align:center;padding:13px;border:1px dashed #181818}
+/* METRICS */
+.mc{border:1px solid var(--b);padding:14px 12px}
+.mc.r{border-color:var(--r);background:#0f0a09}
+.mcl{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.13em;color:var(--m);text-transform:uppercase;margin-bottom:5px}
+.mcv{font-family:'Bebas Neue',sans-serif;font-size:28px;line-height:1;color:var(--w);margin-bottom:2px}
+.mc.r .mcv{color:var(--r)}
+.mcs{font-size:11px;color:var(--m);font-weight:300}
+/* TIMELINE */
+.tl{position:relative;padding-left:13px;border-left:1px solid #1e1e1e;margin-bottom:20px}
+.tli{padding:0 0 18px 17px;position:relative}
+.tli::before{content:'';position:absolute;left:-5px;top:5px;width:9px;height:9px;border-radius:50%;background:#1e1e1e;border:2px solid var(--k)}
+.tli.t::before{background:var(--r)}
+.tlm{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.11em;color:var(--m);text-transform:uppercase;margin-bottom:2px}
+.tla{font-family:'Bebas Neue',sans-serif;font-size:26px;color:var(--w);letter-spacing:.03em;line-height:1;margin-bottom:2px}
+.tli.t .tla{color:var(--r)}
+.tln{font-size:12px;color:var(--m);font-weight:300}
+/* FINANCE */
+.fr{display:flex;justify-content:space-between;align-items:center;padding:10px 13px;border:1px solid var(--b);margin-bottom:2px;transition:background .2s}
+.fr:hover{background:var(--d)}
+.frt{font-size:13px}
+.frg{font-family:'DM Mono',monospace;font-size:9px;color:var(--r);letter-spacing:.1em;white-space:nowrap;margin-left:9px}
+/* MARKET */
+.mkr{display:grid;grid-template-columns:70px 1fr;border:1px solid var(--b);margin-bottom:3px;overflow:hidden}
+.mkt{font-family:'DM Mono',monospace;font-size:10px;padding:11px 10px;background:var(--d);color:var(--m);border-right:1px solid var(--b);display:flex;align-items:center;letter-spacing:.04em}
+.mkb{padding:11px 13px}
+.mktitle{font-size:13px;font-weight:500;margin-bottom:2px}
+.mknote{font-size:11px;color:var(--m);font-weight:300;line-height:1.6}
+/* MONTH */
+.mblk{border:1px solid var(--b);margin-bottom:3px;overflow:hidden}
+.mhdr{display:flex;align-items:center;gap:11px;padding:11px 14px;background:var(--d);cursor:pointer;border-bottom:1px solid var(--b);transition:background .2s}
+.mhdr:hover{background:#111}
+.mtag{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.11em;color:var(--r);text-transform:uppercase;min-width:55px}
+.mname{font-size:13px;font-weight:500;flex:1}
+.mgoal{font-family:'DM Mono',monospace;font-size:11px;color:var(--m);white-space:nowrap}
+.mtasks{display:none;padding:13px 14px;flex-direction:column;gap:7px}
+.mtasks.open{display:flex}
+.mts{display:flex;gap:9px;align-items:flex-start}
+.mdot{width:5px;height:5px;border-radius:50%;background:var(--r);flex-shrink:0;margin-top:7px}
+.mts p{font-size:13px;color:#aaa;line-height:1.62;font-weight:300}
+.mts p strong{color:var(--w);font-weight:500}
+/* CHARISMA */
+.chg{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-bottom:16px}
+.chc{border:1px solid var(--b);padding:14px}
+.cht{font-size:13px;font-weight:500;margin-bottom:5px}
+.chb{font-size:12px;color:var(--m);line-height:1.72;font-weight:300}
+.chb strong{color:#888;font-weight:400}
+/* BRAIN */
+.bri{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid var(--b);align-items:flex-start}
+.bri:last-child{border-bottom:none}
+.bric{font-family:'DM Mono',monospace;font-size:10px;color:var(--r);min-width:19px;letter-spacing:.1em;margin-top:2px}
+.brit h4{font-size:13px;font-weight:500;margin-bottom:2px}
+.brit p{font-size:12px;color:var(--m);line-height:1.62;font-weight:300}
+.brit p strong{color:#888;font-weight:400}
+/* PHONE */
+.phr{border:1px solid var(--b);padding:13px 14px;margin-bottom:3px;display:flex;gap:12px;align-items:flex-start}
+.phnum{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--r);line-height:1;min-width:20px;opacity:.6}
+.phb h4{font-size:13px;font-weight:500;margin-bottom:2px}
+.phb p{font-size:12px;color:var(--m);line-height:1.62;font-weight:300}
+.phb p strong{color:#888;font-weight:400}
+/* SOCIAL */
+.soc{border:1px solid var(--b);padding:14px}
+.socl{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.11em;color:var(--m);text-transform:uppercase;margin-bottom:5px}
+.soct{font-size:13px;font-weight:500;margin-bottom:5px}
+.socb{font-size:12px;color:#999;line-height:1.72;font-weight:300}
+.socb strong{color:var(--w);font-weight:500}
+/* BOOKS */
+.bkst{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-bottom:16px}
+.bksc{border:1px solid var(--b);padding:13px;text-align:center}
+.bksv{font-family:'Bebas Neue',sans-serif;font-size:32px;color:var(--w);line-height:1}
+.bksl{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.13em;color:var(--m);text-transform:uppercase;margin-top:3px}
+.bkaf{display:flex;gap:4px;margin-bottom:4px;flex-wrap:wrap}
+.bki{flex:1;min-width:100px;background:var(--k);border:1px solid var(--b);color:var(--w);padding:9px 10px;font-family:'DM Sans',sans-serif;font-size:13px;outline:none}
+.bki:focus{border-color:var(--r)}
+.bki::placeholder{color:var(--m)}
+.bksel{background:var(--k);border:1px solid var(--b);color:var(--m);padding:9px 10px;font-family:'DM Mono',monospace;font-size:10px;outline:none;text-transform:uppercase;min-width:110px}
+.bksel:focus{border-color:var(--r)}
+.bkab{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.12em;padding:9px 13px;background:var(--r);color:var(--w);border:none;cursor:pointer;text-transform:uppercase;white-space:nowrap}
+.fbar{display:flex;gap:3px;flex-wrap:wrap;margin-bottom:13px}
+.fbtn{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.11em;padding:5px 10px;border:1px solid var(--b);color:var(--m);background:none;cursor:pointer;text-transform:uppercase;transition:all .2s}
+.fbtn:hover{color:var(--w);border-color:var(--w)}
+.fbtn.on{border-color:var(--r);color:var(--r)}
+.bkrow{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--b)}
+.bkrow:last-child{border-bottom:none}
+.bkrow.done2{opacity:.4}
+.bkchk{width:20px;height:20px;border:1px solid var(--b);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:12px;color:var(--g);flex-shrink:0;transition:all .2s}
+.bkrow.done2 .bkchk{background:rgba(34,197,94,.1);border-color:var(--g)}
+.bkchk:hover{border-color:var(--g)}
+.bkinfo{flex:1}
+.bktxt{font-size:13px;font-weight:500}
+.bkrow.done2 .bktxt{text-decoration:line-through;color:var(--m)}
+.bkatxt{font-size:11px;color:var(--m);font-weight:300}
+.bkctag{font-family:'DM Mono',monospace;font-size:9px;color:var(--m);letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--b);padding:2px 5px}
+.bkdel{background:none;border:none;color:var(--m);cursor:pointer;font-size:12px;padding:2px 4px}
+.bkdel:hover{color:var(--r)}
+/* CLOSING */
+.bl{font-family:'Bebas Neue',sans-serif;font-size:clamp(32px,9vw,68px);line-height:.95;margin-bottom:20px}
+.bl em{color:var(--r);font-style:normal}
+.clp{font-size:13px;color:#999;line-height:1.88;font-weight:300;max-width:560px;margin-bottom:20px}
+.clp strong{color:var(--w);font-weight:500}
+.stamp{font-family:'DM Mono',monospace;font-size:10px;color:#242424;letter-spacing:.15em}
+/* UTILS */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.hero{animation:fadeUp .5s ease both}
+@media(max-width:600px){
+  .g2,.rtg,.chg,.pw,.two{grid-template-columns:1fr}
+  .dg{grid-template-columns:1fr 1fr}
+  .g3,.bkst,.inc-stats{grid-template-columns:1fr 1fr}
+  .hgrid{grid-template-columns:1fr 1fr}
+  .et{min-width:86px;font-size:9px}
+  .bkaf{flex-direction:column}
+  .iarow{flex-direction:column}
+}
+</style>
+</head>
+<body>
+<nav><div class="ni">
+  <a href="#contract">Contract</a>
+  <a href="#mirror">Mirror</a>
+  <a href="#tracker">Tracker</a>
+  <a href="#income">Income</a>
+  <a href="#patterns">Patterns</a>
+  <a href="#excuse">Excuses</a>
+  <a href="#identity">Identity</a>
+  <a href="#schedule">Schedule</a>
+  <a href="#body">Body</a>
+  <a href="#skills">Skills</a>
+  <a href="#finance">Finance</a>
+  <a href="#marketing">Marketing</a>
+  <a href="#mind">Mind</a>
+  <a href="#social">Social</a>
+  <a href="#books">Books</a>
+</div></nav>
+<div class="W">
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hm">Shaurya — Master Life Plan 2026 (Full Force)</div>
+  <h1 class="big">YOU<br>VS<br><em>YOU.</em></h1>
+  <div class="cx"><p>18 years old. 183cm. 85kg. ₹0 income. Zero clients. Two years out of the gym. Bad phone addiction. <strong>That's the honest baseline.</strong> The only competitor you have is yesterday's version of you. Open this document to work — not to feel like you're working.</p></div>
+</div>
+
+<!-- CONTRACT -->
+<section id="contract">
+  <div class="sl">00 — Commitment Contract</div>
+  <div class="st">SIGNED. DATED. <em>NON-NEGOTIABLE.</em></div>
+  <div class="ctb">
+    <p style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m);letter-spacing:.08em;text-transform:uppercase;margin-bottom:18px;line-height:1.7">Between Shaurya and the man he is becoming</p>
+    <div class="cc"><div class="ccn">01</div><div class="cct"><strong>The Mission.</strong> I, Shaurya, commit to building a freelance marketing career that generates ₹50,000/month by December 31, 2026. This is not a hope. It is not a wish. It is the only acceptable outcome of the next 235 days.</div></div>
+    <div class="cc"><div class="ccn">02</div><div class="cct"><strong>The Non-Negotiables.</strong> Every single day I will complete: deep work (3+ hours), gym session, 115g protein, and be asleep by 11pm. These are not goals. They are the floor. Days these don't happen are days I am choosing the old version of myself.</div></div>
+    <div class="cc"><div class="ccn">03</div><div class="cct"><strong>The Phone.</strong> Social media is capped at 30 minutes daily. During deep work, the phone is in another room. Not silent — another room. I acknowledge that I have used phone scrolling as my primary escape mechanism and I am choosing to stop.</div></div>
+    <div class="cc"><div class="ccn">04</div><div class="cct"><strong>The Work.</strong> I will complete HubSpot certification before July 1. I will send my first cold outreach before July 1. I will land my first paying client before August 1. <strong>These are dates, not intentions.</strong></div></div>
+    <div class="cc"><div class="ccn">05</div><div class="cct"><strong>The Body.</strong> I will train 6 days per week. I will track my food. I will do my skincare and looksmaxxing routines every morning and night. <strong>Physical discipline is the foundation everything else is built on.</strong> When I honour my body, I honour the contract.</div></div>
+    <div class="cc"><div class="ccn">06</div><div class="cct"><strong>The Forfeit.</strong> If I average fewer than 5/8 habits for any 2 consecutive weeks, the following consequence is triggered:</div></div>
+    <div class="forfeit-area">
+      <label>Write your forfeit — make it real, make it painful enough that you won't let it happen:</label>
+      <textarea class="fi" id="forfeit-txt" placeholder="e.g. I will delete Instagram for 30 days and tell my family exactly how many days I failed..." oninput="saveForfeit()"></textarea>
+    </div>
+    <div class="cc" style="margin-top:14px"><div class="ccn">07</div><div class="cct"><strong>The Promise.</strong> I am not doing this for anyone else. Not for my parents, not for validation, not for social media. I am doing this because I have looked honestly at the gap between who I am and who I want to be, and I have decided the gap is unacceptable. This contract is between me and the version of myself I will eventually become.</div></div>
+    <div class="sarea">
+      <div><div class="sname">Shaurya</div><div class="sdate" id="sign-date">Not yet signed.</div></div>
+      <button class="sbtn" id="sign-btn" onclick="signContract()">→ Sign the Contract</button>
+    </div>
+  </div>
+</section>
+
+<!-- MIRROR -->
+<section id="mirror">
+  <div class="sl">00.5 — Mirror Moment</div>
+  <div class="st">WHO ARE YOU <em>RIGHT NOW?</em></div>
+  <p style="font-size:13px;color:var(--m);margin-bottom:16px;font-weight:300">Open this page. Answer honestly. No middle ground. No "kind of". Pick one.</p>
+  <div class="mq">
+    <h3>At this exact moment — what are you?</h3>
+    <div class="mbtns">
+      <button class="mbtn ex" onclick="setMirror('q1','executing')">EXECUTING<br><span style="font-size:9px;opacity:.6">I opened this to work</span></button>
+      <button class="mbtn av" onclick="setMirror('q1','avoiding')">AVOIDING<br><span style="font-size:9px;opacity:.6">I opened this to feel productive</span></button>
+    </div>
+    <div class="mirror-resp" id="mr1"></div>
+  </div>
+  <div class="mq">
+    <h3>What would 25-year-old Shaurya say about today's version of you?</h3>
+    <div class="mbtns">
+      <button class="mbtn pr" onclick="setMirror('q2','proud')">HE'D BE PROUD</button>
+      <button class="mbtn di" onclick="setMirror('q2','disappointed')">HE'D BE DISAPPOINTED</button>
+    </div>
+    <div class="mirror-resp" id="mr2"></div>
+  </div>
+</section>
+
+<!-- TRACKER -->
+<section id="tracker">
+  <div class="sl">01 — Daily Tracker</div>
+  <div class="st">YOUR STREAK. YOUR <em>SCORE.</em></div>
+  <p style="font-size:13px;color:var(--m);margin-bottom:16px;font-weight:300">Tap each habit — green if done, red if missed. Save at end of day. 30-day history below.</p>
+  <div class="hgrid" id="habit-grid"></div>
+  <div style="display:flex;align-items:flex-end;gap:14px;margin-bottom:4px">
+    <div><div class="score-big" id="score-num">0</div><div class="score-of" id="score-of">/ 8 — tap your habits above</div></div>
+    <div style="flex:1;font-size:13px;color:var(--m);font-weight:300;padding-bottom:6px" id="score-msg">Each one is a vote for the man you're becoming — or evidence against him.</div>
+  </div>
+  <button class="savebtn" onclick="saveDay()">SAVE TODAY'S LOG</button>
+  <div class="srow">
+    <div class="sc"><div class="sv" id="streak-val">0</div><div class="sl2">Day Streak</div></div>
+    <div class="sc"><div class="sv" id="avg-val">—</div><div class="sl2">7-Day Avg</div></div>
+    <div class="sc"><div class="sv" id="best-val">0</div><div class="sl2">Best Streak</div></div>
+  </div>
+  <div class="sub">Last 30 Days</div>
+  <div class="cal-grid" id="cal-grid"></div>
+</section>
+
+<!-- INCOME -->
+<section id="income">
+  <div class="sl">02 — Income Tracker</div>
+  <div class="st">₹0 → <em>₹50,000</em></div>
+  <div style="border:1px solid var(--r);padding:20px;background:#0f0a09;margin-bottom:14px">
+    <div class="isl">Total Earned 2026</div>
+    <div class="inc-big" id="inc-total">₹0</div>
+    <div class="inc-goal" id="inc-goal-txt">₹50,000 to go · Progress to ₹50K month</div>
+    <div class="ibar"><div class="ibarf" id="inc-bar" style="width:0%"></div></div>
+    <div class="ipct" id="inc-pct">0%</div>
+  </div>
+  <div class="inc-stats">
+    <div class="inc-stat"><div class="isl">This Month</div><div class="isv" id="inc-month">₹0</div></div>
+    <div class="inc-stat"><div class="isl">Clients Paid</div><div class="isv" id="inc-clients">0</div></div>
+    <div class="inc-stat"><div class="isl">Last Payment</div><div class="isv" id="inc-last" style="font-size:16px;margin-top:4px">None yet</div></div>
+  </div>
+  <div class="iarow">
+    <input class="ii" id="inc-amt" type="number" placeholder="Amount in ₹">
+    <input class="ii" id="inc-src" type="text" placeholder="Client / Source">
+    <button class="iadd" onclick="addIncome()">+ ADD</button>
+  </div>
+  <div id="inc-log" style="margin-top:8px"><div class="no-inc">No income logged yet. First ₹ incoming.</div></div>
+</section>
+
+<!-- PATTERNS -->
+<section id="patterns">
+  <div class="sl">03 — Your Patterns</div>
+  <div class="st">YOUR PATTERNS. <em>NAMED.</em></div>
+  <p style="font-size:13px;color:var(--m);margin-bottom:16px;font-weight:300">These are your specific sabotage patterns. Not generic advice. <strong style="color:var(--w)">Yours.</strong> The excuse you'll try. The truth behind it.</p>
+  <div class="pw">
+    <div class="pc"><div class="ppt">PATTERN #1</div><div class="ppl">Planning instead of doing</div><div class="ppt2">You open Claude, build a new system, make a new document. It feels like progress. It isn't.</div><div class="ppa">Every minute spent planning is borrowed time from doing. <strong>The plan is done. It's this document. Open WsCube.</strong></div></div>
+    <div class="pc"><div class="ppt">PATTERN #2</div><div class="ppl">Using Claude as a dopamine hit</div><div class="ppt2">Long conversations with AI that feel productive but produce nothing billable or executable.</div><div class="ppa"><strong>If you've been on Claude for more than 20 minutes and haven't applied anything — you're procrastinating.</strong> Close it.</div></div>
+    <div class="pc"><div class="ppt">HIGH RISK</div><div class="ppl">Skipping gym "just today"</div><div class="ppt2">It's never just today. It's always just today, three times a week.</div><div class="ppa"><strong>The gym is not optional. It is the foundation.</strong> When you skip it you skip the version of yourself who does hard things.</div></div>
+    <div class="pc"><div class="ppt">DAILY THREAT</div><div class="ppl">Phone spiral during deep work</div><div class="ppt2">You pick it up once. Then 40 minutes have passed and the block is gone.</div><div class="ppa"><strong>Phone in another room. Not silent. Another room.</strong> This is not a preference. It's architecture.</div></div>
+    <div class="pc"><div class="ppt">SUBTLE KILLER</div><div class="ppl">Treating learning as achievement</div><div class="ppt2">Watched a module. Felt good. Didn't apply it. Called it a productive day.</div><div class="ppa"><strong>A lesson unwatched and a lesson unaplied are the same thing.</strong> Apply the same day or it didn't happen.</div></div>
+    <div class="pc"><div class="ppt">CASCADE FAILURE</div><div class="ppl">Starting late, losing the whole day</div><div class="ppt2">Miss the morning. Tell yourself the day is ruined. Do nothing. Sleep late. Repeat.</div><div class="ppa"><strong>A bad morning doesn't give you permission for a bad afternoon.</strong> 3PM deep work still counts. Start.</div></div>
+    <div class="pc"><div class="ppt">THE GATEKEEPER</div><div class="ppl">Cold outreach anxiety</div><div class="ppt2">Portfolio isn't ready. Skills aren't good enough yet. Waiting until confident.</div><div class="ppa"><strong>Confidence comes after the action, not before it.</strong> Send the DM today. Imperfect outreach beats perfect silence.</div></div>
+    <div class="pc"><div class="ppt">THE LOOP</div><div class="ppl">Research spiral</div><div class="ppt2">Looking for the best course. The best app. The best system. Still looking.</div><div class="ppa"><strong>The best tool is the one you're actually using.</strong> HubSpot. WsCube. Now. Done.</div></div>
+  </div>
+</section>
+
+<!-- EXCUSE ENGINE -->
+<section id="excuse">
+  <div class="sl">04 — Anti-Excuse Engine</div>
+  <div class="st">TYPE YOUR EXCUSE. <em>GET THE TRUTH.</em></div>
+  <p style="font-size:13px;color:var(--m);margin-bottom:16px;font-weight:300">No judgment. Just honesty. Type the excuse you're telling yourself right now — the engine will tell you what's actually happening.</p>
+  <div class="exc-box">
+    <div style="font-family:'DM Mono',monospace;font-size:10px;color:var(--r);letter-spacing:.15em;text-transform:uppercase;margin-bottom:10px">Your excuse right now</div>
+    <div class="exc-tags">
+      <button class="exc-tag" onclick="setExcuse(this)">I'm too tired</button>
+      <button class="exc-tag" onclick="setExcuse(this)">I'll start tomorrow</button>
+      <button class="exc-tag" onclick="setExcuse(this)">I need more time to prepare</button>
+      <button class="exc-tag" onclick="setExcuse(this)">I don't feel motivated</button>
+      <button class="exc-tag" onclick="setExcuse(this)">My portfolio isn't ready</button>
+      <button class="exc-tag" onclick="setExcuse(this)">I had a bad day</button>
+      <button class="exc-tag" onclick="setExcuse(this)">Just one more reel</button>
+      <button class="exc-tag" onclick="setExcuse(this)">I work better at night</button>
+      <button class="exc-tag" onclick="setExcuse(this)">I'm not good enough yet</button>
+    </div>
+    <textarea class="exc-ta" id="exc-in" placeholder="Type your excuse here..."></textarea>
+    <button class="exc-btn" id="exc-btn" onclick="callExcuse()">CALL IT OUT →</button>
+    <div class="exc-out" id="exc-out"></div>
+  </div>
+</section>
+
+<!-- IDENTITY -->
+<section id="identity">
+  <div class="sl">05 — Identity</div>
+  <div class="st">THE MAN YOU'RE <em>BUILDING</em></div>
+  <div class="g2" style="margin-bottom:16px">
+    <div class="idc"><div class="idw">GREAT LEARNER</div><div class="idd">You don't consume — you extract, apply, remember. <strong>Ask: where do I use this today?</strong> WsCube isn't background noise. Every lesson applied the same day.</div></div>
+    <div class="idc"><div class="idw">CHARISMATIC</div><div class="idd">Not loud. Not performing. <strong>Confidence + presence + genuine interest in others.</strong> Built through the gym, the work, and not needing your phone every 4 minutes.</div></div>
+    <div class="idc"><div class="idw">GREAT COMMUNICATOR</div><div class="idd">Clarity. Copy that converts. Holding a room. <strong>Communication is your primary income skill.</strong> Every pitch, every DM, every college event — a rep.</div></div>
+    <div class="idc"><div class="idw">MAN PEOPLE LOOK UP TO</div><div class="idd">Built by doing what you said, consistently, when nobody's watching. <strong>Gym at 7 when you don't feel like it. Work when YouTube is right there.</strong> That earns real respect.</div></div>
+  </div>
+  <div class="cx"><p>The gap is <strong>not a talent gap — it's a consistency gap.</strong> The identity isn't missing. It's unconfirmed. Every day you execute, you confirm it a little more.</p></div>
+</section>
+
+<!-- SCHEDULE -->
+<section id="schedule">
+  <div class="sl">06 — Daily Schedule</div>
+  <div class="st">HOW EVERY DAY <em>RUNS</em></div>
+  <div class="eb"><div class="eh hot" onclick="tog('s1','a1')"><div class="et">5:50–7:00 AM</div><div class="en">Morning</div><div class="ea" id="a1">▾</div></div>
+  <div class="ed" id="s1">
+    <div class="er"><div class="ed1"></div><p><strong>5:50 AM — Wake. No phone for 10 min.</strong> Brain is most impressionable right after waking. Don't hand it to Instagram.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>6:30 AM — Get ready.</strong> Move before your brain negotiates.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>6:30–6:40 AM — Breakfast.</strong> Oats 60g + milk = 23g protein. Non-negotiable.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>6:40–7:00 AM — Meditation (5 min) + Morning LM (10 min).</strong> SCM, chin tucks, eye exercises, cold compress, scalp mobilisation.</p></div>
+  </div></div>
+  <div class="eb"><div class="eh" onclick="tog('s2','a2')"><div class="et">7:00–2:00 PM</div><div class="en">College</div><div class="ea" id="a2">▾</div></div>
+  <div class="ed" id="s2">
+    <div class="er"><div class="ed1"></div><p><strong>Commute — podcasts/marketing content.</strong> Dead time converted.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>8:45–9:05 AM — Share market routine.</strong> ET Markets → Trendlyne → X initiations → BSE. Active pattern recognition, not scrolling.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>Events, presentations, group work</strong> — every one is a communication rep. Take the mic. Be visible.</p></div>
+  </div></div>
+  <div class="eb"><div class="eh" onclick="tog('s3','a3')"><div class="et">2:00–3:00 PM</div><div class="en">Lunch & Wind Down</div><div class="ea" id="a3">▾</div></div>
+  <div class="ed" id="s3">
+    <div class="er"><div class="ed1"></div><p><strong>Lunch</strong> — Dal + sabzi + rotis + curd 100g. 28g protein.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>Rest max 20 min.</strong> Transition: change clothes, splash water. Deep work starts.</p></div>
+  </div></div>
+  <div class="eb"><div class="eh hot" onclick="tog('s4','a4')"><div class="et">3:00–7:00 PM</div><div class="en">Deep Work — Primary Skills</div><div class="ea" id="a4">▾</div></div>
+  <div class="ed" id="s4">
+    <div class="er"><div class="ed1"></div><p><strong>Phone in another room.</strong> Not silent. Not face-down. Another room.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>First 90 min — Learn.</strong> HubSpot / WsCube. One full module. Apply same day.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>Next 90 min — Apply.</strong> Write copy. Build something. Send outreach. Make it real.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>4:15 PM — StockEdge check.</strong> Match morning to what actually moved. Cause to effect.</p></div>
+  </div></div>
+  <div class="eb"><div class="eh hot" onclick="tog('s5','a5')"><div class="et">7:00–9:00 PM</div><div class="en">Gym + Boxing</div><div class="ea" id="a5">▾</div></div>
+  <div class="ed" id="s5">
+    <div class="er"><div class="ed1"></div><p><strong>15 min incline treadmill</strong> — every session, every time.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>Training session</strong> — 6-day split. Track every set. Progressive overload always.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>Boxing</strong> — integrated selected days. 2026 = boxing foundation → 2027 = MMA.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>5 min posture work</strong> — face pulls, dead hangs, band pull-aparts. Every session.</p></div>
+  </div></div>
+  <div class="eb"><div class="eh" onclick="tog('s6','a6')"><div class="et">9:00–9:30 PM</div><div class="en">Dinner & Wind Down</div><div class="ea" id="a6">▾</div></div>
+  <div class="ed" id="s6">
+    <div class="er"><div class="ed1"></div><p><strong>Paneer 100g + rotis</strong> — 31g protein. Within 45 min of gym.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>1 glass milk</strong> — 8g casein. Overnight muscle repair.</p></div>
+  </div></div>
+  <div class="eb"><div class="eh hot" onclick="tog('s7','a7')"><div class="et">9:30–10:30 PM</div><div class="en">Secondary Skill Stack</div><div class="ea" id="a7">▾</div></div>
+  <div class="ed" id="s7">
+    <div class="er"><div class="ed1"></div><p><strong>Rotate:</strong> share market study, vocabulary, design basics, data analytics, mental models. One per night.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>Weekends:</strong> Japanese (20–30 min) + sketching or guitar (30–45 min). Only after primary work done.</p></div>
+  </div></div>
+  <div class="eb"><div class="eh" onclick="tog('s8','a8')"><div class="et">10:30–11:00 PM</div><div class="en">Read + Journal → Sleep</div><div class="ea" id="a8">▾</div></div>
+  <div class="ed" id="s8">
+    <div class="er"><div class="ed1"></div><p><strong>Read — 20 pages min.</strong> Physical book. Not phone.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>Night skincare + LM</strong> — full 20-min sequence.</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>Journal — 3 questions:</strong> What went well? What didn't? What does tomorrow need?</p></div>
+    <div class="er"><div class="ed1"></div><p><strong>11:00 PM — Sleep. Hard stop.</strong></p></div>
+  </div></div>
+</section>
+
+<!-- BODY TABS -->
+<section id="body">
+  <div class="sl">07 — Body</div>
+  <div class="st">LOOKS. GYM. POSTURE. <em>DIET.</em></div>
+  <div class="tbar">
+    <button class="tbtn on" onclick="stab('looks',this)">Looks</button>
+    <button class="tbtn" onclick="stab('gym',this)">Gym</button>
+    <button class="tbtn" onclick="stab('posture',this)">Posture</button>
+    <button class="tbtn" onclick="stab('diet',this)">Diet</button>
+  </div>
+
+  <!-- LOOKS -->
+  <div class="tc on" id="tab-looks">
+    <div class="sub">Key Ingredients</div>
+    <div class="g3" style="margin-bottom:12px">
+      <div class="ingc"><div class="ingn">NIACINAMIDE</div><div class="ingb">Reduces pigmentation, controls oil, minimises pores. <strong>Most important daily ingredient</strong> for your skin concerns. AM + PM.</div></div>
+      <div class="ingc"><div class="ingn">VITAMIN C</div><div class="ingb">Brightens, targets dark spots, boosts collagen. <strong>Morning only.</strong> Always follow with SPF. They work together.</div></div>
+      <div class="ingc"><div class="ingn">RETINOL</div><div class="ingb">Cell turnover, acne scars, long-game anti-ageing. <strong>Night only. Start 1x/week.</strong> Never same night as Vit C.</div></div>
+    </div>
+    <div class="sub">Daily Routines</div>
+    <div class="rtg">
+      <div class="rtb"><div class="rtl">Morning</div>
+        <div class="stp"><div class="stn">1</div><div><div class="stp1">Gentle Cleanser</div><div class="stp2">Cetaphil or Minimalist. 30 sec.</div></div></div>
+        <div class="stp"><div class="stn">2</div><div><div class="stp1">Vitamin C Serum</div><div class="stp2">Minimalist 10%. Wait 60 sec. Targets your pigmentation directly.</div></div></div>
+        <div class="stp"><div class="stn">3</div><div><div class="stp1">Niacinamide 10%</div><div class="stp2">Wait 60 sec after Vit C.</div></div></div>
+        <div class="stp"><div class="stn">4</div><div><div class="stp1">Moisturiser</div><div class="stp2">Minimalist or Simple. Oily skin still needs it.</div></div></div>
+        <div class="stp"><div class="stn">5</div><div><div class="stp1">SPF 50+ — NEVER SKIP</div><div class="stp2">Neutrogena Ultra Sheer. UV undoes every other step. Indian skin especially vulnerable.</div></div></div>
+        <div class="stp"><div class="stn">6</div><div><div class="stp1">Ice Rolling — 2–3 min</div><div class="stp2">Reduces puffiness. Outward strokes only.</div></div></div>
+      </div>
+      <div class="rtb"><div class="rtl">Night</div>
+        <div class="stp"><div class="stn">1</div><div><div class="stp1">Double Cleanse</div><div class="stp2">Micellar water first → face wash. Post-gym = mandatory.</div></div></div>
+        <div class="stp"><div class="stn">2</div><div><div class="stp1">BHA or Niacinamide</div><div class="stp2">2–3x/week: Minimalist 2% Salicylic. Other nights: niacinamide.</div></div></div>
+        <div class="stp"><div class="stn">3</div><div><div class="stp1">Moisturiser</div><div class="stp2">CeraVe PM. Night = repair time.</div></div></div>
+        <div class="stp"><div class="stn">4</div><div><div class="stp1">Retinol 0.1% — Month 2+</div><div class="stp2">1x/week first. Build to 3x. Game-changer for scars.</div></div></div>
+        <div class="stp"><div class="stn">5</div><div><div class="stp1">Dermarolling — 1x/week</div><div class="stp2">0.25mm. Micro-injuries trigger collagen repair on scars.</div></div></div>
+      </div>
+    </div>
+    <div class="sub">Haircare</div>
+    <div class="g2" style="margin-bottom:16px">
+      <div class="hc"><div class="hl">Dandruff</div><div class="ht2">Nizoral / Ketomac</div><div class="hb2">2x/week. Antifungal — root cause. <strong>Leave on 3 min.</strong></div></div>
+      <div class="hc"><div class="hl">Hairfall</div><div class="ht2">Rosemary Oil / Bhringraj</div><div class="hb2">Scalp massage 30 min before wash. <strong>Rosemary = clinically comparable to Minoxidil.</strong></div></div>
+      <div class="hc"><div class="hl">Curly Hair</div><div class="ht2">Sulphate-Free + Leave-In</div><div class="hb2"><strong>Leave-in after every wash.</strong> Microfibre towel. Zero heat.</div></div>
+      <div class="hc"><div class="hl">Diet for Hair</div><div class="ht2">Biotin + Zinc + Omega-3</div><div class="hb2"><strong>Pumpkin seeds</strong> daily (zinc). Walnuts for omega-3. Your protein target already helps hair.</div></div>
+    </div>
+    <div class="sub">Looksmaxxing — Morning (10 min)</div>
+    <div class="lmt">After waking, before breakfast</div>
+    <div class="lmi"><span class="lmin">SCM stretch right side</span><span class="lmid">3 × 30 sec</span></div>
+    <div class="lmi"><span class="lmin">Chin tucks</span><span class="lmid">15 reps</span></div>
+    <div class="lmi"><span class="lmin">Neck isometrics — all 4 directions</span><span class="lmid">Hold each</span></div>
+    <div class="lmi"><span class="lmin">Levator exercise right eye</span><span class="lmid">10 reps</span></div>
+    <div class="lmi"><span class="lmin">Brow resistance raises</span><span class="lmid">15 reps</span></div>
+    <div class="lmi"><span class="lmin">Cold compress under eyes</span><span class="lmid">60 sec</span></div>
+    <div class="lmi"><span class="lmin">Scalp mobilisation</span><span class="lmid">1 min</span></div>
+    <div class="sub">Looksmaxxing — All Day</div>
+    <div class="lmi"><span class="lmin">Mew constantly — full tongue on palate</span><span class="lmid">Always</span></div>
+    <div class="lmi"><span class="lmin">Brows relaxed and low — zero raising</span><span class="lmid">Always</span></div>
+    <div class="lmi"><span class="lmin">Zero forehead movement</span><span class="lmid">Always</span></div>
+    <div class="lmi"><span class="lmin">Chew 70% right side</span><span class="lmid">Every meal</span></div>
+    <div class="lmi"><span class="lmin">Posture reset</span><span class="lmid">Every hour</span></div>
+    <div class="sub">Looksmaxxing — Night (20 min)</div>
+    <div class="lmt">After skincare, before sleep</div>
+    <div class="lmi"><span class="lmin">Temporalis massage right</span><span class="lmid">3 min</span></div>
+    <div class="lmi"><span class="lmin">Scalp mobilisation</span><span class="lmid">2 min</span></div>
+    <div class="lmi"><span class="lmin">Frontalis release right side</span><span class="lmid">2 min</span></div>
+    <div class="lmi"><span class="lmin">Glabella pinch and roll</span><span class="lmid">1 min</span></div>
+    <div class="lmi"><span class="lmin">Gua sha — cheeks and under eyes</span><span class="lmid">2 min</span></div>
+    <div class="lmi"><span class="lmin">Right jaw massage</span><span class="lmid">2 min</span></div>
+    <div class="lmi"><span class="lmin">Left jaw massage</span><span class="lmid">1 min</span></div>
+    <div class="lmi"><span class="lmin">Occipital massage</span><span class="lmid">2 min</span></div>
+    <div class="lmi"><span class="lmin">Jaw opening mirror exercise</span><span class="lmid">10 reps</span></div>
+    <div class="lmi"><span class="lmin">Digastric resistance</span><span class="lmid">15 reps</span></div>
+    <div class="lmi"><span class="lmin">Hyoid lift</span><span class="lmid">10 reps</span></div>
+    <div class="lmi"><span class="lmin">Nose tip + Nasalis exercise</span><span class="lmid">10 reps each</span></div>
+    <div class="lmi"><span class="lmin">Right zygomaticus smile</span><span class="lmid">10 reps</span></div>
+    <div class="lmi"><span class="lmin">SCM stretch right</span><span class="lmid">3 × 30 sec</span></div>
+    <div class="lmi"><span class="lmin">Sleep on back</span><span class="lmid">Always</span></div>
+    <div class="sub">Gym LM Additions</div>
+    <div class="lmi"><span class="lmin">Face pulls</span><span class="lmid">3 × 20</span></div>
+    <div class="lmi"><span class="lmin">Band pull-aparts</span><span class="lmid">3 × 20</span></div>
+    <div class="lmi"><span class="lmin">Dead hangs</span><span class="lmid">3 × 30 sec</span></div>
+    <div class="lmi"><span class="lmin">Neck curls and extensions (weighted)</span><span class="lmid">3 sets</span></div>
+    <div class="lmi"><span class="lmin">Unilateral right trap shrugs</span><span class="lmid">3 sets</span></div>
+  </div>
+
+  <!-- GYM TAB -->
+  <div class="tc" id="tab-gym">
+    <div class="cx" style="margin-bottom:18px"><p>Two years out. <strong>Don't go in like you used to.</strong> First 3 weeks = re-learn movement patterns. Muscle memory is real — strength returns fast. Goal: recomposition. Not the bodybuilder. <strong>The warrior. Lean, vascular, V-taper, functional, fight-ready.</strong> 2026 = boxing foundation → 2027 = MMA layer.</p></div>
+    <div class="sub">6-Day Split — Click a Day</div>
+    <div class="dg">
+      <div class="dc"><div class="dh" onclick="togDay('mon')"><div><div class="dtag">Mon</div><div class="dtitle">Chest + Tris + Front Delts</div></div><span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m)">▾</span></div>
+      <div class="db" id="mon">
+        <div class="dgrp"><div class="dgt">Chest</div><div class="dex">Dumbbell Flat Press — 3 sets</div><div class="dex">Smith Incline Press — 3 sets</div><div class="dex">Pec Dec Fly — 3 sets</div></div>
+        <div class="dgrp"><div class="dgt">Triceps</div><div class="dex">DB Overhead Extension — 3 sets</div><div class="dex">Cable Pushdowns — 3 sets</div><div class="dex">Smith CG Press — 2 sets</div></div>
+        <div class="dgrp"><div class="dgt">Front Delts</div><div class="dex">DB Front Raises — 2 sets</div><div class="dex">Arnold Press — 2 sets</div></div>
+      </div></div>
+      <div class="dc"><div class="dh" onclick="togDay('tue')"><div><div class="dtag">Tue</div><div class="dtitle">Back + Bis + Rear Delts</div></div><span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m)">▾</span></div>
+      <div class="db" id="tue">
+        <div class="dgrp"><div class="dgt">Back</div><div class="dex">Smith Bent Over Row — 3 sets</div><div class="dex">Cable Lat Pulldown — 3 sets</div><div class="dex">Single Arm DB Row — 3 sets</div></div>
+        <div class="dgrp"><div class="dgt">Biceps</div><div class="dex">DB Curl — 3 sets</div><div class="dex">Hammer Curl — 2 sets</div><div class="dex">Concentration Curl — 2 sets</div></div>
+        <div class="dgrp"><div class="dgt">Rear Delts</div><div class="dex">DB Reverse Fly — 2 sets</div><div class="dex">Face Pulls — 2 sets</div></div>
+      </div></div>
+      <div class="dc"><div class="dh" onclick="togDay('wed')"><div><div class="dtag">Wed</div><div class="dtitle">Legs + Core</div></div><span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m)">▾</span></div>
+      <div class="db" id="wed">
+        <div class="dgrp"><div class="dgt">Legs</div><div class="dex">Smith Squat — 3 sets</div><div class="dex">Smith Lunges — 3 sets</div><div class="dex">Lying Ham Curl — 3 sets</div><div class="dex">Bulgarian Split Squat — 3 sets</div></div>
+        <div class="dgrp"><div class="dgt">Core</div><div class="dex">Toe Touch Crunches — 3 sets</div><div class="dex">Crunches — 3 sets</div><div class="dex">Hanging Leg Raises — 3 sets</div><div class="dex">Plank — 3 sets</div></div>
+      </div></div>
+      <div class="dc"><div class="dh" onclick="togDay('thu')"><div><div class="dtag">Thu</div><div class="dtitle">Chest + Tris + Side Delts</div></div><span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m)">▾</span></div>
+      <div class="db" id="thu">
+        <div class="dgrp"><div class="dgt">Chest</div><div class="dex">Smith Flat Press — 3 sets</div><div class="dex">DB Incline Press — 3 sets</div><div class="dex">Pec Dec Fly — 3 sets</div></div>
+        <div class="dgrp"><div class="dgt">Triceps</div><div class="dex">DB Overhead Extension — 3 sets</div><div class="dex">DB Kickbacks — 2 sets</div><div class="dex">Diamond Push Ups — 2 sets</div></div>
+        <div class="dgrp"><div class="dgt">Side Delts</div><div class="dex">Lateral Raises — 3 sets</div><div class="dex">Upright Row — 2 sets</div></div>
+      </div></div>
+      <div class="dc"><div class="dh" onclick="togDay('fri')"><div><div class="dtag">Fri</div><div class="dtitle">Back + Bis + Rear Delts</div></div><span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m)">▾</span></div>
+      <div class="db" id="fri">
+        <div class="dgrp"><div class="dgt">Back</div><div class="dex">Smith Bent Over Row — 3 sets</div><div class="dex">CG Lat Pulldown — 3 sets</div><div class="dex">DB Pullover — 3 sets</div></div>
+        <div class="dgrp"><div class="dgt">Biceps</div><div class="dex">DB Curl — 3 sets</div><div class="dex">Incline DB Curl — 2 sets</div><div class="dex">Reverse Curl — 2 sets</div></div>
+        <div class="dgrp"><div class="dgt">Rear Delts</div><div class="dex">DB Reverse Fly — 2 sets</div><div class="dex">Face Pulls — 2 sets</div></div>
+      </div></div>
+      <div class="dc"><div class="dh" onclick="togDay('sat')"><div><div class="dtag">Sat</div><div class="dtitle">Shoulders + Traps + Forearms + Core</div></div><span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m)">▾</span></div>
+      <div class="db" id="sat">
+        <div class="dgrp"><div class="dgt">Shoulders</div><div class="dex">DB Shoulder Press — 3 sets</div><div class="dex">Lateral Raises — 3 sets</div><div class="dex">Front Raises — 2 sets</div><div class="dex">Rear Delt Fly — 2 sets</div></div>
+        <div class="dgrp"><div class="dgt">Traps + Forearms</div><div class="dex">DB Shrugs — 3 sets</div><div class="dex">Upright Row — 2 sets</div><div class="dex">Wrist Curls — 2 sets</div><div class="dex">Reverse Wrist Curls — 2 sets</div></div>
+        <div class="dgrp"><div class="dgt">Core</div><div class="dex">Toe Touch Crunches — 3 sets</div><div class="dex">Leg Raises — 3 sets</div><div class="dex">Cycling Twists — 3 sets</div><div class="dex">Plank — 3 mins</div></div>
+      </div></div>
+      <div class="dc rest"><div class="dh" style="cursor:default"><div><div class="dtag">Sun</div><div class="dtitle">Rest & Recovery</div></div></div></div>
+    </div>
+    <div class="ib"><p><strong>Physique Philosophy:</strong> Moves like a gymnast. Looks like a Greek god. Performs like an athlete. Built like a fighter. Lean + vascular, not bulky. V-taper. Visible abs. But also: handstands, fight-ready, 5km under 20 min by Dec 2026.</p></div>
+  </div>
+
+  <!-- POSTURE TAB -->
+  <div class="tc" id="tab-posture">
+    <div class="cx" style="margin-bottom:18px"><p>Your problems: <strong>forward head, rolled shoulders, slight upper thoracic hunchback, anterior pelvic tilt</strong> (biggest — from sitting), ankle mobility. At 183cm, posture is immediately visible. 15 min daily. Non-negotiable.</p></div>
+    <div class="pr"><div class="pn">1</div><div><div class="pname">Chin Tucks</div><div class="pnote">Forward head correction. Pull chin back, not down.</div></div><div class="preps">2 × 15</div></div>
+    <div class="pr"><div class="pn">2</div><div><div class="pname">Thoracic Extension Over Roller</div><div class="pnote">Directly attacks hunchback. Opens upper thoracic.</div></div><div class="preps">60 sec</div></div>
+    <div class="pr"><div class="pn">3</div><div><div class="pname">Wall Angels</div><div class="pnote">Rounded shoulders + scapular control. Back flat throughout.</div></div><div class="preps">2 × 10</div></div>
+    <div class="pr"><div class="pn">4</div><div><div class="pname">Doorway Chest Stretch</div><div class="pnote">Releases tight pecs pulling shoulders forward.</div></div><div class="preps">2 × 30 sec</div></div>
+    <div class="pr"><div class="pn">5</div><div><div class="pname">Kneeling Hip Flexor Stretch</div><div class="pnote">Anterior pelvic tilt fix. Couch stretch variant.</div></div><div class="preps">2 × 45 sec</div></div>
+    <div class="pr"><div class="pn">6</div><div><div class="pname">Glute Bridges</div><div class="pnote">Activates switched-off glutes. Directly corrects pelvic tilt.</div></div><div class="preps">2 × 20</div></div>
+    <div class="pr"><div class="pn">7</div><div><div class="pname">Dead Bugs</div><div class="pnote">Deep core activation. Opposite arm + leg, slow.</div></div><div class="preps">2 × 10</div></div>
+    <div class="pr"><div class="pn">8</div><div><div class="pname">Cat-Cow</div><div class="pnote">Full spinal mobility. Feel each vertebra.</div></div><div class="preps">10 reps</div></div>
+    <div class="pr"><div class="pn">9</div><div><div class="pname">Dead Hang</div><div class="pnote">Decompresses spine, opens shoulders.</div></div><div class="preps">2 × 30 sec</div></div>
+    <div class="pr"><div class="pn">10</div><div><div class="pname">Ankle Circles</div><div class="pnote">Affects knee and hip alignment above it.</div></div><div class="preps">30 sec each</div></div>
+    <div class="ib" style="margin-top:16px"><p><strong>All day:</strong> Posture reset every hour. Chin tucked, chest open, shoulders back and down, core lightly engaged. At 183cm, good posture is the difference between commanding a room and disappearing into it.</p></div>
+  </div>
+
+  <!-- DIET TAB -->
+  <div class="tc" id="tab-diet">
+    <div class="sub">Daily Meal Plan</div>
+    <div class="mr"><div class="mt">Morning</div><div class="mb"><div class="mn">Oats 60g + 1 glass milk</div><div class="md">Before leaving. Non-negotiable.</div></div><div class="mp">23g</div></div>
+    <div class="mr"><div class="mt">College</div><div class="mb"><div class="mn">Peanut butter sandwich</div><div class="md">Simple, calorie-dense, portable.</div></div><div class="mp">10g</div></div>
+    <div class="mr"><div class="mt">Lunch</div><div class="mb"><div class="mn">Dal + sabzi + rotis + curd 100g</div><div class="md">Eat properly, not rushed.</div></div><div class="mp">28g</div></div>
+    <div class="mr"><div class="mt">Evening</div><div class="mb"><div class="mn">1 glass milk + roasted chana</div><div class="md">Pre-gym fuel.</div></div><div class="mp">16g</div></div>
+    <div class="mr" style="border-color:var(--r)"><div class="mt" style="color:var(--r)">Post Gym</div><div class="mb"><div class="mn">Paneer 100g + rotis</div><div class="md">Within 45 min of gym. Most important meal.</div></div><div class="mp">31g</div></div>
+    <div class="mr"><div class="mt">Night</div><div class="mb"><div class="mn">1 glass milk</div><div class="md">Casein. Overnight recovery.</div></div><div class="mp">8g</div></div>
+    <div style="display:flex;justify-content:space-between;align-items:center;padding:13px 15px;background:var(--d);border:1px solid var(--r);margin-top:3px">
+      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m);text-transform:uppercase;letter-spacing:.1em">Daily Total</span>
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--r);letter-spacing:.03em">115–120g protein · ~2000 kcal</span>
+    </div>
+    <div class="sub" style="margin-top:18px">Macro Targets</div>
+    <div class="mac"><div class="mact"><span>Protein</span><strong>115–120g</strong></div><div class="macb"><div class="macf" style="width:82%"></div></div></div>
+    <div class="mac"><div class="mact"><span>Calories</span><strong>~2000 kcal — slight deficit</strong></div><div class="macb"><div class="macf" style="width:65%"></div></div></div>
+    <div class="mac"><div class="mact"><span>Carbs</span><strong>Timed around workouts</strong></div><div class="macb"><div class="macf" style="width:55%"></div></div></div>
+    <div class="ib" style="margin-top:12px"><p><strong>Skin diet:</strong> Amla/citrus daily for Vit C. Pumpkin seeds for zinc. Green tea — reduces skin inflammation. Walnuts/flaxseeds for omega-3 (glowing skin from inside). 3–4L water daily. Zero sugary drinks.</p></div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sl">08 — Skill Stack</div>
+  <div class="st">WHAT YOU'RE <em>BUILDING</em></div>
+  <div class="cx"><p><strong>10 deep sections at 80–90% depth</strong> — these earn your money and build your identity. Everything else at 50%. Learn in order. Don't try to build everything at once.</p></div>
+  <div class="sub">Full Stack — By Category</div>
+  <div class="skc"><div class="skch" onclick="togCat('cm')"><span class="skcn">Money Skills</span><span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m)">▾</span></div>
+  <div class="skcb" id="cm"><span class="stag d">Paid Ads — Meta/Google ●</span><span class="stag d">Copywriting ●</span><span class="stag d">Client Acquisition ●</span><span class="stag">Email Marketing & Funnels</span><span class="stag">SEO</span><span class="stag">Brand Strategy</span><span class="stag">Consumer Psychology</span><span class="stag">Content Strategy</span><span class="stag">Share Market</span><span class="stag">Freelancer Finance & GST</span></div></div>
+  <div class="skc"><div class="skch" onclick="togCat('ct')"><span class="skcn">Tech & AI</span><span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m)">▾</span></div>
+  <div class="skcb" id="ct"><span class="stag d">AI Automations ●</span><span class="stag d">Vibe Coding / No-Code ●</span><span class="stag d">Video Editing ●</span><span class="stag">Prompt Engineering</span><span class="stag">Data Analytics</span></div></div>
+  <div class="skc"><div class="skch" onclick="togCat('cp')"><span class="skcn">People Skills</span><span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m)">▾</span></div>
+  <div class="skcb" id="cp"><span class="stag d">Sales, Persuasion & Negotiation ●</span><span class="stag d">Public Speaking ●</span><span class="stag d">Storytelling & Articulation ●</span><span class="stag">Emotional Intelligence</span><span class="stag">Body Language</span><span class="stag">Vocabulary & Tonality</span><span class="stag">Networking</span><span class="stag">Client Retention</span></div></div>
+  <div class="skc"><div class="skch" onclick="togCat('cc')"><span class="skcn">Creation & Business</span><span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--m)">▾</span></div>
+  <div class="skcb" id="cc"><span class="stag d">Personal Branding & Graphic Design ●</span><span class="stag d">Organic Growth ●</span><span class="stag">Short Form Video Scripting</span><span class="stag">Proposal & Contracts</span><span class="stag">Project Management</span><span class="stag">Mental Models</span></div></div>
+  <div style="font-family:'DM Mono',monospace;font-size:9px;color:var(--m);padding:8px 0;letter-spacing:.1em">● = 80–90% DEPTH · rest = 50%</div>
+  <div class="sub">10 Deep Sections — Your Roadmaps</div>
+  <div class="ds"><div class="dsh" onclick="togDeep('d1')"><div class="dsl"><div class="dsnum">01</div><div class="dsname">Copywriting — Writing Words That Sell</div></div><div class="dsbadge">80–90%</div></div><div class="dsb" id="d1"><div class="ph">Your copywriting roadmap — resources, milestones, practice system, swipe file. Add when ready.</div></div></div>
+  <div class="ds"><div class="dsh" onclick="togDeep('d2')"><div class="dsl"><div class="dsnum">02</div><div class="dsname">Paid Ads — Meta & Google</div></div><div class="dsbadge">80–90%</div></div><div class="dsb" id="d2"><div class="ph">Campaign structure, budgets, targeting, analytics. Add when ready.</div></div></div>
+  <div class="ds"><div class="dsh" onclick="togDeep('d3')"><div class="dsl"><div class="dsnum">03</div><div class="dsname">Organic Growth</div></div><div class="dsbadge">80–90%</div></div><div class="dsb" id="d3"><div class="ph">Content systems, platform strategy, growth loops. Add when ready.</div></div></div>
+  <div class="ds"><div class="dsh" onclick="togDeep('d4')"><div class="dsl"><div class="dsnum">04</div><div class="dsname">AI Automations & Tools</div></div><div class="dsbadge">80–90%</div></div><div class="dsb" id="d4"><div class="ph">Tools, workflows, what to automate first. Add when ready.</div></div></div>
+  <div class="ds"><div class="dsh" onclick="togDeep('d5')"><div class="dsl"><div class="dsnum">05</div><div class="dsname">Vibe Coding / No-Code</div></div><div class="dsbadge">80–90%</div></div><div class="dsb" id="d5"><div class="ph">Webflow, Framer, what to build, client applications. Add when ready.</div></div></div>
+  <div class="ds"><div class="dsh" onclick="togDeep('d6')"><div class="dsl"><div class="dsnum">06</div><div class="dsname">Video Editing — Reels, Ads, Short Form</div></div><div class="dsbadge">80–90%</div></div><div class="dsb" id="d6"><div class="ph">Software, style, client work vs own content. Add when ready.</div></div></div>
+  <div class="ds"><div class="dsh" onclick="togDeep('d7')"><div class="dsl"><div class="dsnum">07</div><div class="dsname">Public Speaking & Presentation</div></div><div class="dsbadge">80–90%</div></div><div class="dsb" id="d7"><div class="ph">College events, vocal training, practice reps. Add when ready.</div></div></div>
+  <div class="ds"><div class="dsh" onclick="togDeep('d8')"><div class="dsl"><div class="dsnum">08</div><div class="dsname">Sales · Persuasion · Negotiation · Storytelling</div></div><div class="dsbadge">80–90%</div></div><div class="dsb" id="d8"><div class="ph">Closing framework, Cialdini, cold call scripts. Add when ready.</div></div></div>
+  <div class="ds"><div class="dsh" onclick="togDeep('d9')"><div class="dsl"><div class="dsnum">09</div><div class="dsname">Personal Branding & Graphic Design</div></div><div class="dsbadge">80–90%</div></div><div class="dsb" id="d9"><div class="ph">Canva, visual identity, content pillars, audience. Add when ready.</div></div></div>
+  <div class="ds"><div class="dsh" onclick="togDeep('d10')"><div class="dsl"><div class="dsnum">10</div><div class="dsname">Client Acquisition · Cold Outreach · Cold Calls</div></div><div class="dsbadge">80–90%</div></div><div class="dsb" id="d10"><div class="ph">DM templates, cold call framework, follow-up sequence. Add when ready.</div></div></div>
+</section>
+
+<!-- FINANCE -->
+<section id="finance">
+  <div class="sl">09 — Finance & Markets</div>
+  <div class="st">₹0 TO <em>₹50K</em></div>
+  <div class="two">
+    <div>
+      <div class="sub">Income Milestones</div>
+      <div class="tl">
+        <div class="tli"><div class="tlm">May 2026</div><div class="tla">₹0</div><div class="tln">Baseline. Documented. Moving.</div></div>
+        <div class="tli"><div class="tlm">July 2026</div><div class="tla">₹5K–8K</div><div class="tln">First client. First proof.</div></div>
+        <div class="tli"><div class="tlm">September 2026</div><div class="tla">₹20K–30K</div><div class="tln">2–3 clients. Own expenses covered.</div></div>
+        <div class="tli t"><div class="tlm">December 2026</div><div class="tla">₹50K</div><div class="tln">The only acceptable outcome.</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="sub">Money Rules</div>
+      <div class="fr"><span class="frt">Save 30% of every payment</span><span class="frg">Always</span></div>
+      <div class="fr"><span class="frt">Track every rupee — first 3 months</span><span class="frg">Habit</span></div>
+      <div class="fr"><span class="frt">No lifestyle inflation until ₹50K is consistent × 2 months</span><span class="frg">Discipline</span></div>
+      <div class="fr"><span class="frt">Learn GST, invoicing, TDS before first client pays</span><span class="frg">Legal</span></div>
+      <div class="fr"><span class="frt">Build 3-month emergency fund</span><span class="frg">Safety</span></div>
+      <div class="fr"><span class="frt">Never need anyone's approval to spend</span><span class="frg">The Goal</span></div>
+    </div>
+  </div>
+  <div class="sub">Share Market — Daily Routine</div>
+  <div class="cx"><p>Not passive scrolling. <strong>Active pattern recognition every day.</strong> For every big move — ask WHY. Order win? Earnings beat? Analyst report? Primary sources always beat secondary.</p></div>
+  <div class="mkr"><div class="mkt">8:45 AM</div><div class="mkb"><div class="mktitle">ET Markets → News → Company (5 min)</div><div class="mknote">For every big move — ask WHY. Pattern recognition starts here.</div></div></div>
+  <div class="mkr"><div class="mkt">8:50 AM</div><div class="mkb"><div class="mktitle">ET Markets → Broker Recommendations (5 min)</div><div class="mknote">Today's date filter. Fresh initiations, 20%+ upside, top 8 brokers.</div></div></div>
+  <div class="mkr"><div class="mkt">8:55 AM</div><div class="mkb"><div class="mktitle">ET Markets → Bulk & Block Deals (3 min)</div><div class="mknote">FII buying, promoter buying, institutional moves. Smart money signals.</div></div></div>
+  <div class="mkr"><div class="mkt">8:58 AM</div><div class="mkb"><div class="mktitle">Trendlyne → Research Reports → Highest Upside (5 min)</div><div class="mknote">Credible brokers. Check if it already moved.</div></div></div>
+  <div class="mkr"><div class="mkt">9:03 AM</div><div class="mkb"><div class="mktitle">X → "initiates coverage India" → Latest (3 min)</div><div class="mknote">Fresh initiations. Set Google Alert on notable ones.</div></div></div>
+  <div class="mkr"><div class="mkt">9:06 AM</div><div class="mkb"><div class="mktitle">BSE → Corporate Announcements → Today (5 min)</div><div class="mknote">Primary source. Order wins, bulk deals, board outcomes.</div></div></div>
+  <div class="mkr" style="border-color:var(--r)"><div class="mkt" style="color:var(--r)">4:15 PM</div><div class="mkb"><div class="mktitle">StockEdge → News → Company (5 min)</div><div class="mknote">Match morning to what actually moved. Cause to effect. Real learning.</div></div></div>
+</section>
+
+<!-- MARKETING -->
+<section id="marketing">
+  <div class="sl">10 — Marketing Roadmap</div>
+  <div class="st">MONTH BY MONTH TO <em>₹50K</em></div>
+  <div class="mblk"><div class="mhdr" onclick="togMonth('m1')"><div class="mtag">Month 1</div><div class="mname">May 11 → June 10 — LEARN</div><div class="mgoal">₹0 → Foundation</div></div>
+  <div class="mtasks" id="m1">
+    <div class="mts"><div class="mdot"></div><p><strong>Start HubSpot Digital Marketing certification</strong> — complete it before July 1. Globally recognised, free, India-applicable. Apply every concept same week.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>Run WsCube in parallel</strong> for India-specific execution depth. One module minimum per session.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>Reverse-engineer 3 brands</strong> you admire. What are they posting? Copy patterns? Build your swipe file actively.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>Write 10 pieces of practice copy</strong> — captions, ad scripts, email subjects. No client needed yet.</p></div>
+    <div class="mts"><div class="mdot"></div><p>Exit Month 1 able to answer: <strong>"What is this brand missing and what exactly would I do?"</strong> For 5 brands. If you can't — not ready to pitch.</p></div>
+  </div></div>
+  <div class="mblk"><div class="mhdr" onclick="togMonth('m2')"><div class="mtag">Month 2</div><div class="mname">June 11 → July 10 — BUILD PROOF</div><div class="mgoal">Free → ₹5K</div></div>
+  <div class="mtasks" id="m2">
+    <div class="mts"><div class="mdot"></div><p><strong>1–2 free projects</strong> — local shop, cousin's business, college event page. Real work. Document with numbers.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>Build portfolio</strong> — Notion or PDF. 3 case studies: problem, what you did, result. Numbers beat words.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>5 DMs per day from July 1.</strong> Specific — reference their content, one problem, one concrete fix.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>First paid client by end of month.</strong> ₹3,000–5,000. Amount doesn't matter — proof of payment does.</p></div>
+  </div></div>
+  <div class="mblk"><div class="mhdr" onclick="togMonth('m3')"><div class="mtag">Month 3</div><div class="mname">July 11 → Aug 10 — EXECUTE</div><div class="mgoal">₹5K → ₹15K</div></div>
+  <div class="mtasks" id="m3">
+    <div class="mts"><div class="mdot"></div><p><strong>Over-deliver on first client.</strong> Satisfied first client = testimonial + referral + case study.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>Close 1–2 more clients.</strong> 5 DMs daily even while delivering. Never stop outreach.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>Raise rates on new clients.</strong> ₹8,000–12,000/month retainer is realistic now with proof.</p></div>
+  </div></div>
+  <div class="mblk"><div class="mhdr" onclick="togMonth('m4')"><div class="mtag">Month 4–5</div><div class="mname">Aug → Sep — SCALE</div><div class="mgoal">₹20K–₹30K</div></div>
+  <div class="mtasks" id="m4">
+    <div class="mts"><div class="mdot"></div><p><strong>3 active retainer clients at ₹8K–12K each.</strong> Own expenses covered. First taste of real independence.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>Build delivery systems</strong> — calendars, reporting, client comms. Systematize before adding more.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>September 12 — 19th birthday.</strong> The gap between May 11 and now should be undeniable.</p></div>
+  </div></div>
+  <div class="mblk"><div class="mhdr" onclick="togMonth('m5')"><div class="mtag">Month 6–8</div><div class="mname">Oct → Dec — HIT THE TARGET</div><div class="mgoal">₹50K/month</div></div>
+  <div class="mtasks" id="m5">
+    <div class="mts"><div class="mdot"></div><p><strong>Premium pricing or more clients.</strong> 4 clients × ₹12K or 3 × ₹15K+ once results justify.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>Specialize.</strong> By now you know your strongest output. Specialists earn more. Position around it.</p></div>
+    <div class="mts"><div class="mdot"></div><p><strong>December 31: ₹50K consistent. Expenses managed. Savings growing.</strong> The only acceptable outcome of 2026.</p></div>
+  </div></div>
+</section>
+
+<!-- MIND -->
+<section id="mind">
+  <div class="sl">11 — Mind & Personality</div>
+  <div class="st">MAGNETIC. SHARP. <em>IN CONTROL.</em></div>
+  <div class="sub">Charisma — 6 Real Components</div>
+  <div class="chg">
+    <div class="chc"><div class="cht">Vocal Tonality</div><div class="chb">Slow down. Deliberate pauses. Chest, not throat. <strong>Most people talk too fast when nervous</strong> — that reads as anxiety. Silence is power.</div></div>
+    <div class="chc"><div class="cht">Eye Contact</div><div class="chb">Hold 70% of the time. Breaking early signals submission. <strong>Practice in every conversation.</strong> Discomfort = growth.</div></div>
+    <div class="chc"><div class="cht">Stillness</div><div class="chb">Stop fidgeting. Stop filling silence. <strong>Comfortable people don't rush.</strong> Every unnecessary movement signals low confidence.</div></div>
+    <div class="chc"><div class="cht">Genuine Curiosity</div><div class="chb">Ask real questions. Remember what people say. Follow up. <strong>People feel seen when someone actually listens.</strong></div></div>
+    <div class="chc"><div class="cht">Having Things to Say</div><div class="chb">Charisma needs substance. <strong>Empty people run out fast.</strong> The 20 pages/day — this is where it pays socially.</div></div>
+    <div class="chc"><div class="cht">Aura</div><div class="chb">Knowing who you are. Not seeking approval. Having standards. <strong>Aura isn't performed. It's radiated</strong> by someone who has done the internal work.</div></div>
+  </div>
+  <div class="sub">Brain Development</div>
+  <div class="bri"><div class="bric">01</div><div class="brit"><h4>Reading — 20 pages/day</h4><p>Physical book. Stoicism first (Marcus Aurelius, Epictetus), then psychology, marketing, biography. <strong>Highest ROI daily habit.</strong></p></div></div>
+  <div class="bri"><div class="bric">02</div><div class="brit"><h4>Podcasts — commute + walks</h4><p>Marketing, psychology, philosophy. Dead time converted. <strong>One good idea applied = compounding knowledge.</strong></p></div></div>
+  <div class="bri"><div class="bric">03</div><div class="brit"><h4>Meditation — 10 min morning</h4><p>Breath focus, no app needed. <strong>Reduces anxiety, improves focus.</strong> The gym for your attention span.</p></div></div>
+  <div class="bri"><div class="bric">04</div><div class="brit"><h4>Japanese — weekends only</h4><p>Duolingo → Anki. 20–30 min Sat + Sun. <strong>2026 = foundation. Conversational by 2027.</strong></p></div></div>
+  <div class="bri"><div class="bric">05</div><div class="brit"><h4>Hobbies — weekends only</h4><p>Sketching + Guitar. 30–45 min each. Builds patience, creativity. <strong>Genuine things to talk about.</strong></p></div></div>
+  <div class="bri"><div class="bric">06</div><div class="brit"><h4>Stoicism — daily practice</h4><p>Not academic. Practical. Do what needs doing. Control what can be controlled. <strong>This is your life philosophy. Live it.</strong></p></div></div>
+  <div class="bri"><div class="bric">07</div><div class="brit"><h4>Vocabulary — 5 words/day</h4><p>Business, psychology, persuasion domains. <strong>Use same day or it doesn't stick.</strong> Precision of language = intelligence perceived.</p></div></div>
+  <div class="bri"><div class="bric">08</div><div class="brit"><h4>Mental Models & First Principles</h4><p>Charlie Munger's models. Break down any problem, decide faster, think clearly under pressure. <strong>Feeds into everything.</strong></p></div></div>
+  <div class="sub">Phone Control</div>
+  <div class="phr"><div class="phnum">1</div><div class="phb"><h4>Grayscale mode — always on</h4><p>Settings → Accessibility → Color Filters → Grayscale. <strong>Do it now.</strong></p></div></div>
+  <div class="phr"><div class="phnum">2</div><div class="phb"><h4>App limits: 30 min/day Instagram + YouTube total</h4><p><strong>Get someone else to set the passcode.</strong> You know you'll override it otherwise.</p></div></div>
+  <div class="phr"><div class="phnum">3</div><div class="phb"><h4>Phone in another room during deep work</h4><p>Not silent. Not face-down. <strong>Another room.</strong> Its presence costs 10–15% cognitive capacity even unused.</p></div></div>
+  <div class="phr"><div class="phnum">4</div><div class="phb"><h4>No phone first 10 min after waking, last 30 min before sleep</h4><p>Morning: highly suggestible. Night: <strong>blue light kills melatonin.</strong> Protect both windows.</p></div></div>
+  <div class="phr"><div class="phnum">5</div><div class="phb"><h4>Replace scrolling with a 2-min default action</h4><p>10 pushups, water, open your book. <strong>You can't fight an urge. You replace it.</strong></p></div></div>
+</section>
+
+<!-- SOCIAL -->
+<section id="social">
+  <div class="sl">12 — Social & Relationships</div>
+  <div class="st">DEPTH OVER <em>SURFACE.</em></div>
+  <div class="g2">
+    <div class="soc"><div class="socl">Friendships</div><div class="soct">Surface stays surface until someone goes first.</div><div class="socb">Most people are waiting. <strong>Be the one who goes first.</strong> Invest in 2–3 people you genuinely respect. One real friendship beats 20 surface ones.</div></div>
+    <div class="soc"><div class="socl">College</div><div class="soct">Events are communication reps.</div><div class="socb">Every event, presentation, competition — <strong>treat as a live brief.</strong> Take the mic. Be visible. The man you're building is forged here too.</div></div>
+    <div class="soc"><div class="socl">Romantic</div><div class="soct">Build yourself genuinely first.</div><div class="socb">Confidence is magnetic. <strong>Work on yourself not as a strategy but because you deserve to be someone you're proud of.</strong> The rest follows naturally.</div></div>
+    <div class="soc"><div class="socl">Family</div><div class="soct">You have support. Don't waste the stability.</div><div class="socb">You're fighting to thrive, not survive. <strong>Tell them what you're working on.</strong> Accountability from people who want you to succeed is a resource.</div></div>
+  </div>
+</section>
+
+<!-- BOOKS -->
+<section id="books">
+  <div class="sl">13 — Reading List</div>
+  <div class="st">WHAT YOU'VE <em>READ.</em> WHAT'S NEXT.</div>
+  <p style="font-size:13px;color:var(--m);margin-bottom:16px;font-weight:300">Add books as you discover them. Tick when done. 20 pages a day — the highest ROI daily habit.</p>
+  <div class="bkst">
+    <div class="bksc"><div class="bksv" id="bk-total">0</div><div class="bksl">Total Books</div></div>
+    <div class="bksc"><div class="bksv" id="bk-read">0</div><div class="bksl">Read</div></div>
+    <div class="bksc"><div class="bksv" id="bk-pct">0%</div><div class="bksl">Completion</div></div>
+  </div>
+  <div class="bkaf">
+    <input class="bki" id="bk-title" placeholder="Book title">
+    <input class="bki" id="bk-author" placeholder="Author">
+    <select class="bksel" id="bk-cat">
+      <option value="">Category</option>
+      <option>Stoicism</option>
+      <option>Marketing</option>
+      <option>Psychology</option>
+      <option>Business</option>
+      <option>Biography</option>
+      <option>Finance</option>
+      <option>Health</option>
+      <option>Other</option>
+    </select>
+    <button class="bkab" onclick="addBook()">+ ADD</button>
+  </div>
+  <div class="fbar" id="bk-filters">
+    <button class="fbtn on" onclick="filterBooks('all',this)">All</button>
+    <button class="fbtn" onclick="filterBooks('to-read',this)">To Read</button>
+    <button class="fbtn" onclick="filterBooks('read',this)">Read</button>
+    <button class="fbtn" onclick="filterBooks('Stoicism',this)">Stoicism</button>
+    <button class="fbtn" onclick="filterBooks('Marketing',this)">Marketing</button>
+    <button class="fbtn" onclick="filterBooks('Psychology',this)">Psychology</button>
+    <button class="fbtn" onclick="filterBooks('Business',this)">Business</button>
+    <button class="fbtn" onclick="filterBooks('Biography',this)">Biography</button>
+  </div>
+  <div id="bk-list"></div>
+</section>
+
+<!-- CLOSING -->
+<div class="closing">
+  <div class="bl">THE PLAN<br>IS <em>DONE.</em><br>YOU HAVE<br>NO <em>EXCUSE.</em></div>
+  <p class="clp">Everything you need to become who you described is in this document. The schedule, the roadmap, the skill stack, the systems, the tracker, the contract. <strong>You built this. It fits your life. There is no information gap left — only an action gap.</strong> At 18, with support, a working brain, and a clear direction, the only thing that determines who you are at 20 is what you do in the next 235 days. Every morning this document says the same thing. <strong>The only question is whether today's version of you takes it seriously.</strong></p>
+  <div class="stamp">COMPILED — MAY 2026 // SHAURYA // NO EXCUSES LEFT // YOU VS YOU</div>
+</div>
+
+</div><!-- end .W -->
+
+<script>
+// ─── STORAGE HELPERS ────────────────────────────────────
+async function store(k,v){try{await window.storage.set(k,JSON.stringify(v))}catch(e){}}
+async function load(k,d){try{const r=await window.storage.get(k);return r?JSON.parse(r.value):d}catch(e){return d}}
+
+// ─── INIT ────────────────────────────────────────────────
+window.addEventListener('load',async()=>{
+  await initContract();
+  await initTracker();
+  await initIncome();
+  await initBooks();
+});
+
+// ─── CONTRACT ────────────────────────────────────────────
+async function initContract(){
+  const c=await load('contract',{});
+  if(c.signed){
+    document.getElementById('sign-date').textContent='Signed '+c.date;
+    const btn=document.getElementById('sign-btn');
+    btn.textContent='✓ Contract Signed';
+    btn.className='sbtn signed';
+  }
+  if(c.forfeit) document.getElementById('forfeit-txt').value=c.forfeit;
+}
+async function saveForfeit(){
+  const c=await load('contract',{});
+  c.forfeit=document.getElementById('forfeit-txt').value;
+  await store('contract',c);
+}
+async function signContract(){
+  const btn=document.getElementById('sign-btn');
+  if(btn.classList.contains('signed')) return;
+  const d=new Date().toLocaleDateString('en-IN',{day:'numeric',month:'long',year:'numeric'});
+  const c=await load('contract',{});
+  c.signed=true; c.date=d;
+  c.forfeit=document.getElementById('forfeit-txt').value;
+  await store('contract',c);
+  document.getElementById('sign-date').textContent='Signed '+d;
+  btn.textContent='✓ Contract Signed';
+  btn.className='sbtn signed';
+}
+
+// ─── MIRROR ──────────────────────────────────────────────
+const mirrorResps={
+  q1:{
+    executing:{cls:'',txt:'Good. Now close everything else and get to work. This document is a tool, not a destination.'},
+    avoiding:{cls:'color:var(--r)',txt:'<strong style="color:var(--r)">You already know this.</strong> Close the tab. Open WsCube. You\'ve been here before — the next move is always the same one.'}
+  },
+  q2:{
+    proud:{cls:'color:var(--g)',txt:'<strong style="color:var(--g)">Then prove it today.</strong> Not for him. For the streak. For the compound interest on who you\'re becoming.'},
+    disappointed:{cls:'color:var(--r)',txt:'<strong style="color:var(--r)">Then change that. Right now.</strong> Not tomorrow. The gap between the man you want to be and who you are today closes one action at a time. What\'s the next one?'}
+  }
+};
+function setMirror(q,val){
+  document.querySelectorAll(`.mbtn[data-q="${q}"]`).forEach(b=>b.classList.remove('sel'));
+  const btns=document.querySelectorAll('.mbtn');
+  btns.forEach(b=>{
+    const onclick=b.getAttribute('onclick')||'';
+    if(onclick.includes(q)&&onclick.includes(val)) b.classList.add('sel');
+  });
+  const r=mirrorResps[q][val];
+  const el=document.getElementById('mr'+q.replace('q',''));
+  el.style.opacity='0';
+  setTimeout(()=>{el.innerHTML=`<p style="font-size:13px;line-height:1.75;font-weight:300;${r.cls}">${r.txt}</p>`;el.style.opacity='1';},150);
+}
+// Fix: match by position
+document.querySelectorAll('.mbtn').forEach(b=>{
+  const oc=b.getAttribute('onclick');
+  if(oc){const m=oc.match(/setMirror\('(q\d+)','(\w+)'\)/);if(m)b.dataset.q=m[1];}
+});
+
+// ─── HABITS ──────────────────────────────────────────────
+const HABITS=[
+  {k:'deepwork',n:'Deep Work Done',s:'3+ hours, phone away'},
+  {k:'gym',n:'Gym Completed',s:'No skips, no excuses'},
+  {k:'protein',n:'Protein 115g+',s:'Count it, don\'t estimate'},
+  {k:'phone',n:'Phone Under 30min',s:'Social media capped'},
+  {k:'skincare',n:'Skincare AM+PM',s:'Both routines done'},
+  {k:'sleep',n:'Sleep by 11PM',s:'Hard stop, phone away'},
+  {k:'income',n:'Moved Toward ₹50K',s:'Learned, made, or pitched'},
+  {k:'posture',n:'Posture Work Done',s:'15-min routine complete'}
+];
+let habitState={};
+function renderHabits(){
+  const g=document.getElementById('habit-grid');
+  g.innerHTML=HABITS.map(h=>`<div class="hb ${habitState[h.k]===true?'done':habitState[h.k]===false?'miss':''}" onclick="togHabit('${h.k}')"><div class="hn">${h.n}</div><div class="hs">${h.s}</div></div>`).join('');
+  updateScore();
+}
+function togHabit(k){
+  if(habitState[k]===true) habitState[k]=false;
+  else if(habitState[k]===false) habitState[k]=undefined;
+  else habitState[k]=true;
+  renderHabits();
+}
+function updateScore(){
+  const done=HABITS.filter(h=>habitState[h.k]===true).length;
+  document.getElementById('score-num').textContent=done;
+  document.getElementById('score-of').textContent=`/ 8 — ${done===8?'PERFECT DAY 🔥':done>=6?'Strong day':done>=4?'Acceptable — push harder':'Not good enough'}`;
+}
+async function initTracker(){
+  const today=todayKey();
+  const saved=await load('track_'+today,null);
+  if(saved) habitState=saved;
+  renderHabits();
+  await renderCalendar();
+  await updateStreak();
+}
+async function saveDay(){
+  const today=todayKey();
+  await store('track_'+today,habitState);
+  await renderCalendar();
+  await updateStreak();
+  const done=HABITS.filter(h=>habitState[h.k]===true).length;
+  document.getElementById('score-of').textContent=`/ 8 — Saved! ${done}/8 logged.`;
+}
+async function renderCalendar(){
+  const g=document.getElementById('cal-grid');
+  const today=new Date();
+  let html='';
+  for(let i=29;i>=0;i--){
+    const d=new Date(today);
+    d.setDate(d.getDate()-i);
+    const k=dateKey(d);
+    const saved=await load('track_'+k,null);
+    const day=d.getDate();
+    let cls='cal-day';
+    if(i===0) cls+=' today';
+    else if(saved){
+      const done=HABITS.filter(h=>saved[h.k]===true).length;
+      cls+=done>=6?' done':' miss';
+    }
+    html+=`<div class="${cls}">${day}</div>`;
+  }
+  g.innerHTML=html;
+}
+async function updateStreak(){
+  const today=new Date();
+  let streak=0,best=0,cur=0;
+  const scores=[];
+  for(let i=0;i<30;i++){
+    const d=new Date(today);
+    d.setDate(d.getDate()-i);
+    const saved=await load('track_'+dateKey(d),null);
+    const done=saved?HABITS.filter(h=>saved[h.k]===true).length:0;
+    scores.push(done);
+    if(i===0) continue;
+    if(done>=6){streak++;cur++;}
+    else{if(cur>best)best=cur;cur=0;}
+  }
+  if(cur>best) best=cur;
+  document.getElementById('streak-val').textContent=streak;
+  document.getElementById('best-val').textContent=best;
+  const week=scores.slice(0,7);
+  const avg=week.reduce((a,b)=>a+b,0)/7;
+  document.getElementById('avg-val').textContent=avg.toFixed(1);
+}
+function todayKey(){return dateKey(new Date())}
+function dateKey(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+
+// ─── INCOME ──────────────────────────────────────────────
+let incomeLog=[];
+async function initIncome(){
+  incomeLog=await load('income_log',[]);
+  renderIncome();
+}
+function renderIncome(){
+  const total=incomeLog.reduce((a,x)=>a+x.amount,0);
+  const now=new Date();
+  const month=incomeLog.filter(x=>{const d=new Date(x.date);return d.getMonth()===now.getMonth()&&d.getFullYear()===now.getFullYear();}).reduce((a,x)=>a+x.amount,0);
+  const clients=new Set(incomeLog.map(x=>x.source)).size;
+  const last=incomeLog.length?incomeLog[incomeLog.length-1]:null;
+  const pct=Math.min((total/50000)*100,100);
+  document.getElementById('inc-total').textContent='₹'+total.toLocaleString('en-IN');
+  document.getElementById('inc-bar').style.width=pct+'%';
+  document.getElementById('inc-pct').textContent=pct.toFixed(1)+'% to ₹50K/month target';
+  document.getElementById('inc-goal-txt').textContent='₹'+Math.max(0,50000-total).toLocaleString('en-IN')+' to go · Progress to ₹50K month';
+  document.getElementById('inc-month').textContent='₹'+month.toLocaleString('en-IN');
+  document.getElementById('inc-clients').textContent=clients;
+  document.getElementById('inc-last').textContent=last?'₹'+last.amount.toLocaleString('en-IN')+' — '+last.source:'None yet';
+  const log=document.getElementById('inc-log');
+  if(!incomeLog.length){log.innerHTML='<div class="no-inc">No income logged yet. First ₹ incoming.</div>';return;}
+  log.innerHTML=incomeLog.slice().reverse().map((x,i)=>`<div class="irow"><span class="idate">${x.date}</span><span class="inote">${x.source}</span><span class="iamt">+₹${x.amount.toLocaleString('en-IN')}</span><button class="idel" onclick="delIncome(${incomeLog.length-1-i})">✕</button></div>`).join('');
+}
+async function addIncome(){
+  const a=parseFloat(document.getElementById('inc-amt').value);
+  const s=document.getElementById('inc-src').value.trim();
+  if(!a||!s) return;
+  incomeLog.push({amount:a,source:s,date:new Date().toLocaleDateString('en-IN')});
+  await store('income_log',incomeLog);
+  document.getElementById('inc-amt').value='';
+  document.getElementById('inc-src').value='';
+  renderIncome();
+}
+async function delIncome(i){
+  incomeLog.splice(i,1);
+  await store('income_log',incomeLog);
+  renderIncome();
+}
+
+// ─── EXCUSE ENGINE ───────────────────────────────────────
+function setExcuse(el){document.getElementById('exc-in').value=el.textContent;}
+async function callExcuse(){
+  const excuse=document.getElementById('exc-in').value.trim();
+  if(!excuse) return;
+  const btn=document.getElementById('exc-btn');
+  const out=document.getElementById('exc-out');
+  btn.textContent='CALLING IT OUT...';
+  btn.disabled=true;
+  out.style.display='block';
+  out.innerHTML='<span style="color:var(--m);font-size:13px">Loading truth...</span>';
+  try{
+    const res=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        model:'claude-sonnet-4-20250514',
+        max_tokens:1000,
+        system:`You are the brutally honest inner voice of Shaurya — an 18-year-old Indian guy building a freelance digital marketing career from ₹0 to ₹50K/month. He is fighting phone addiction, planning-as-procrastination, and self-sabotage. His specific patterns: planning instead of doing, using Claude conversations as a dopamine substitute for actual work, skipping gym "just today", phone spiral during deep work, treating watching a course as achievement without applying it, starting late and writing off the whole day, cold outreach anxiety. When he gives you an excuse, call it out with brutal honesty — not cruelly, but without sugarcoating or giving him an easy out. 3-4 sentences max. No fluff. No motivational poster language. End with one specific action he should take in the next 5 minutes.`,
+        messages:[{role:'user',content:excuse}]
+      })
+    });
+    const data=await res.json();
+    out.innerHTML=`<span style="font-size:14px;line-height:1.78;color:var(--w)">${data.content[0].text}</span>`;
+  }catch(e){
+    out.innerHTML='<span style="font-size:14px;line-height:1.75;color:var(--w)">You already know the answer. You\'ve known it this whole time. Stop looking for permission to avoid. Close this. Open WsCube. Press play. That\'s the next 5 minutes.</span>';
+  }
+  btn.textContent='CALL IT OUT →';
+  btn.disabled=false;
+}
+
+// ─── BOOKS ───────────────────────────────────────────────
+let books=[];
+let bookFilter='all';
+async function initBooks(){
+  books=await load('books',[]);
+  renderBooks();
+}
+function renderBookStats(){
+  const total=books.length;
+  const read=books.filter(b=>b.done).length;
+  const pct=total?Math.round((read/total)*100):0;
+  document.getElementById('bk-total').textContent=total;
+  document.getElementById('bk-read').textContent=read;
+  document.getElementById('bk-pct').textContent=pct+'%';
+}
+function renderBooks(){
+  renderBookStats();
+  const list=document.getElementById('bk-list');
+  let filtered=books;
+  if(bookFilter==='to-read') filtered=books.filter(b=>!b.done);
+  else if(bookFilter==='read') filtered=books.filter(b=>b.done);
+  else if(bookFilter!=='all') filtered=books.filter(b=>b.cat===bookFilter);
+  if(!filtered.length){list.innerHTML='<div class="no-inc">No books here yet. Add one above.</div>';return;}
+  list.innerHTML=filtered.map(b=>{
+    const i=books.indexOf(b);
+    return `<div class="bkrow ${b.done?'done2':''}">
+      <div class="bkchk" onclick="togBook(${i})">${b.done?'✓':''}</div>
+      <div class="bkinfo"><div class="bktxt">${b.title}</div><div class="bkatxt">${b.author||'—'}</div></div>
+      ${b.cat?`<span class="bkctag">${b.cat}</span>`:''}
+      <button class="bkdel" onclick="delBook(${i})">✕</button>
+    </div>`;
+  }).join('');
+}
+async function addBook(){
+  const t=document.getElementById('bk-title').value.trim();
+  if(!t) return;
+  books.push({title:t,author:document.getElementById('bk-author').value.trim(),cat:document.getElementById('bk-cat').value,done:false});
+  await store('books',books);
+  document.getElementById('bk-title').value='';
+  document.getElementById('bk-author').value='';
+  document.getElementById('bk-cat').value='';
+  renderBooks();
+}
+async function togBook(i){books[i].done=!books[i].done;await store('books',books);renderBooks();}
+async function delBook(i){books.splice(i,1);await store('books',books);renderBooks();}
+function filterBooks(f,el){
+  bookFilter=f;
+  document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('on'));
+  el.classList.add('on');
+  renderBooks();
+}
+
+// ─── TOGGLES ─────────────────────────────────────────────
+function tog(id,aid){
+  const b=document.getElementById(id),a=document.getElementById(aid);
+  const o=b.classList.toggle('open');
+  if(a) a.style.transform=o?'rotate(180deg)':'';
+}
+function togDay(id){document.getElementById(id).classList.toggle('open')}
+function togDeep(id){document.getElementById(id).classList.toggle('open')}
+function togCat(id){document.getElementById(id).classList.toggle('open')}
+function togMonth(id){document.getElementById(id).classList.toggle('open')}
+function stab(t,el){
+  document.querySelectorAll('.tc').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('.tbtn').forEach(x=>x.classList.remove('on'));
+  document.getElementById('tab-'+t).classList.add('on');
+  el.classList.add('on');
+}
+function setMirror(q,val){
+  const respMap={
+    q1:{executing:{cls:'var(--g)',txt:'Good. Close everything else and get to work. This document is a tool, not a destination.'},
+        avoiding:{cls:'var(--r)',txt:'<strong>You already know this.</strong> Close the tab. Open WsCube. The next move is always the same.'}},
+    q2:{proud:{cls:'var(--g)',txt:'<strong>Then prove it today.</strong> Not for him. For the streak. For who you\'re becoming.'},
+        disappointed:{cls:'var(--r)',txt:'<strong>Then change that. Right now.</strong> The gap closes one action at a time. What\'s the next one?'}}
+  };
+  const allBtns=document.querySelectorAll('.mbtn');
+  allBtns.forEach(b=>{const oc=b.getAttribute('onclick')||'';if(oc.includes(q)){b.classList.remove('sel');if(oc.includes(val)) b.classList.add('sel');}});
+  const r=respMap[q][val];
+  const num=q.replace('q','');
+  const el=document.getElementById('mr'+num);
+  el.style.opacity='0';
+  setTimeout(()=>{el.style.cssText='opacity:1;margin-top:12px;font-size:13px;line-height:1.75;font-weight:300;color:'+r.cls;el.innerHTML=r.txt;},150);
+}
+</script>
+</body>
+</html>
